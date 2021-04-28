@@ -1,43 +1,51 @@
 [
     {
-        "name": "Neko DNS Testing",
+        "name": "Neko DNA Testing",
         "description": "It is currently not possible for humans to create a perfect fusion of a human and a cat",
-        "image": "https://cdn.discordapp.com/attachments/681523223724425369/823565774496071730/image0.jpg"
+        "image": "https://cdn.discordapp.com/attachments/681523223724425369/823565774496071730/image0.jpg",
+        "subpage": "/projects/doge"
     },
     {
         "name": "Random Anime Trash",
         "description": "At least we tried to create something",
-        "image": "https://cdn.discordapp.com/attachments/629404233829187595/823972674761654303/q522v2am60o61.png"
+        "image": "https://cdn.discordapp.com/attachments/629404233829187595/837082517383151726/q522v2am60o61-compressed.jpg",
+        "subpage": "/projects/doge"
     },
     {
         "name": "Random Anime Trash",
         "description": "At least we tried to create something",
-        "image": "https://cdn.discordapp.com/attachments/681523223724425369/834827833104793633/89326531_p0.jpg"
+        "image": "https://cdn.discordapp.com/attachments/681523223724425369/834827833104793633/89326531_p0.jpg",
+        "subpage": "/projects/doge"
     },
     {
         "name": "Random Anime Trash",
         "description": "At least we tried to create something",
-        "image": "https://cdn.discordapp.com/attachments/629404233829187595/823971869270212618/6f8tom94cgo61.png"
+        "image": "https://i.pinimg.com/originals/6a/0a/e0/6a0ae09d4b593283ab17538900173c6a.gif",
+        "subpage": "/projects/doge"
     },
     {
         "name": "Random Anime Trash",
         "description": "At least we tried to create something",
-        "image": "https://cdn.discordapp.com/attachments/681523223724425369/836039558356402176/89401281_p0.jpg"
+        "image": "https://cdn.discordapp.com/attachments/681523223724425369/836039558356402176/89401281_p0.jpg",
+        "subpage": "/projects/doge"
     },
     {
         "name": "Random Anime Trash",
         "description": "At least we tried to create something",
-        "image": "https://cdn.discordapp.com/attachments/681523223724425369/835493811936428052/83025665_p0.jpg"
+        "image": "https://cdn.discordapp.com/attachments/681523223724425369/835493811936428052/83025665_p0.jpg",
+        "subpage": "/projects/doge"
     },
     {
         "name": "Random Anime Trash",
         "description": "At least we tried to create something",
-        "image": "https://cdn.discordapp.com/attachments/681523223724425369/835476655240642570/ANIME-PICTURES.NET_-_340683-1920x1200-killlakill-akira-studiotrigger-matoiryuuko-koutarosu-single.jpg"
+        "image": "https://cdn.discordapp.com/attachments/681523223724425369/835476655240642570/ANIME-PICTURES.NET_-_340683-1920x1200-killlakill-akira-studiotrigger-matoiryuuko-koutarosu-single.jpg",
+        "subpage": "/projects/doge"
     },
     {
         "name": "Random Anime Trash",
         "description": "At least we tried to create something",
-        "image": "https://3.bp.blogspot.com/-kztZsQ3tYA0/XHXEgKrD6lI/AAAAAAAAC68/9qMXQyIB8BwIDB7IiMc-bPFUp9IkITORwCKgBGAs/w3840-h1600-p-k-no-nu/anime-girl-sky-clouds-sunrise-scenery-4K-67.jpg"
+        "image": "https://3.bp.blogspot.com/-kztZsQ3tYA0/XHXEgKrD6lI/AAAAAAAAC68/9qMXQyIB8BwIDB7IiMc-bPFUp9IkITORwCKgBGAs/w3840-h1600-p-k-no-nu/anime-girl-sky-clouds-sunrise-scenery-4K-67.jpg",
+        "subpage": "/projects/doge"
     }
     
 ]

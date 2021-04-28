@@ -3,12 +3,13 @@
     <vue-masonry-wall :items="items" :options="options" @append="append">
       <template v-slot:default="{ item }">
         <div class="Item">
-          <img :src="item.image" />
-
-          <div class="Content">
-            <h5 class="text-ellipsis-1l">{{ item.title }}</h5>
-            <p class="text-ellipsis-2l">{{ item.content }}</p>
-          </div>
+          <nuxt-link :to="item.subpage">
+            <img :src="item.image" />
+            <div class="Content">
+              <h2 class="text-ellipsis-1l">{{ item.title }}</h2>
+              <p class="text-ellipsis-2l">{{ item.content }}</p>
+            </div>
+          </nuxt-link>
         </div>
       </template>
     </vue-masonry-wall>
@@ -17,7 +18,7 @@
 
 <style lang="postcss" scoped>
 section {
-  @apply mx-10 mr-20 mt-10;
+  @apply mx-10 sm:mr-20 mt-10;
 }
 
 h2 {
@@ -25,7 +26,7 @@ h2 {
 }
 
 .Item {
-  @apply dark:bg-gray-300 shadow-md;
+  @apply dark:bg-gray-300 shadow-lg  duration-200 ease-linear transform-gpu hover:opacity-50 hover:border-light hover:border-4 dark:hover:border-dark;
 }
 
 .Content {
@@ -59,11 +60,16 @@ export default {
             title: e.name,
             content: e.description,
             image: e.image,
+            subpage: e.subpage,
           })
         })
         initial = false
       }
     },
+  },
+
+  destroyed() {
+    initial = true
   },
 }
 </script>
