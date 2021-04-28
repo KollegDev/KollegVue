@@ -36,13 +36,14 @@ h2 {
 <script>
 import VueMasonryWall from 'vue-masonry-wall'
 import data from '/static/json/projects.json'
+var initial = true
 
 export default {
   components: { VueMasonryWall },
   data() {
     return {
       options: {
-        width: 600,
+        width: 650,
         padding: {
           default: 12,
         },
@@ -52,13 +53,16 @@ export default {
   },
   methods: {
     append() {
-      data.forEach((e) => {
-        this.items.push({
-          title: e.name,
-          content: e.description,
-          image: e.image,
+      if (initial) {
+        data.forEach((e) => {
+          this.items.push({
+            title: e.name,
+            content: e.description,
+            image: e.image,
+          })
         })
-      })
+        initial = false
+      }
     },
   },
 }
