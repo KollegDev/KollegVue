@@ -18,7 +18,7 @@
       <circle-item icon="bx-dollar" info="Doge" subpage="/projects/doge" />
     </sidebar>
     <!--Main Menu-->
-    <div class="flex-grow overflow-y-auto sm:overflow-y-scroll">
+    <div class="flex-grow overflow-y-auto sm:overflow-y-scroll scrollbar-hide">
       <!--Theme Swapper-->
       <themer />
       <!--Index Page Loader-->

@@ -13,7 +13,8 @@
     "core-js": "^3.9.1",
     "markdown-it-attrs": "^4.0.0",
     "markdown-it-div": "^1.1.0",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "tailwind-scrollbar-hide": "^1.0.3"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^2.0.5",

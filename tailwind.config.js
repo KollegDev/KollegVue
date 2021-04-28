@@ -15,7 +15,8 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    require('tailwindcss-dark-mode')()
+    require('tailwindcss-dark-mode')(),
+    require('tailwind-scrollbar-hide')
   ],
   purge: {
     content: [
