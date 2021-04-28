@@ -1,5 +1,5 @@
 <template>
-  <project v-html="mdFile" />
+  <project v-html="mdFile" paddingX="px-8" />
 </template>
 
 <script>
@@ -10,6 +10,8 @@ export default {
   components: {
     Project,
   },
+
+  transition: 'slide-bottom',
 
   computed: {
     mdFile() {

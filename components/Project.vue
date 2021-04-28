@@ -1,12 +1,12 @@
 <template>
-  <div class="justify-center markdown-body"></div>
+  <div class="justify-center markdown-body" :class="paddingX"></div>
 </template>
 
 <style lang="postcss" scoped>
 @import url('https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css');
 
 .markdown-body {
-  @apply text-black dark:text-white px-16;
+  @apply text-black dark:text-white;
 }
 </style>
 
@@ -14,15 +14,8 @@
 .markdown-body {
   box-sizing: border-box;
   min-width: 200px;
-  max-width: 85vw;
+  max-width: 100vw;
   margin: 0 auto;
-  padding: 45px;
-}
-
-@media (max-width: 767px) {
-  .markdown-body {
-    padding: 15px;
-  }
 }
 
 .markdown-body table tr {
@@ -31,8 +24,26 @@
 }
 
 .markdown-body img {
-  max-width: 100%;
-  box-sizing: initial;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.markdown-body table tr:nth-child(2n) {
   background-color: rgba(255, 255, 255, 0);
 }
 </style>
+
+<script>
+export default {
+  props: {
+    paddingX: {
+      type: String,
+      default: 'px-12',
+    },
+  },
+}
+</script>

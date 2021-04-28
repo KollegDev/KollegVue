@@ -21,7 +21,7 @@
 }
 
 .text-format {
-  @apply text-black text-xl transform-gpu duration-200 -translate-x-full opacity-0 dark:text-white;
+  @apply text-black text-2xl transform-gpu duration-200 -translate-x-full opacity-0 dark:text-white;
 }
 
 .icon {

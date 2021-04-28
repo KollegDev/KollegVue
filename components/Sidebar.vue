@@ -4,7 +4,7 @@
       <h1 class="main-icon">IT_</h1>
     </nuxt-link>
     <nav>
-      <slot></slot>
+      <slot />
     </nav>
   </div>
 </template>
@@ -17,3 +17,5 @@
   }
 }
 </style>
+
+<script></script>

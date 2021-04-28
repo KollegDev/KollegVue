@@ -1,6 +1,6 @@
 <template>
   <div class="flex h-screen bg-white dark:bg-black">
-    <sidebar>
+    <sidebar class="hidden sm:flex">
       <circle-item icon="bx-book" info="Fächer" />
 
       <circle-item icon="bxs-school" info="Lehrer" />
@@ -16,11 +16,12 @@
       <circle-item icon="bx-mail-send" info="Kontakt" />
 
       <circle-item icon="bx-dollar" info="Doge" subpage="/projects/doge" />
+
+      <!--Theme Swapper-->
+      <themer />
     </sidebar>
     <!--Main Menu-->
     <div class="flex-grow overflow-y-auto sm:overflow-y-scroll scrollbar-hide">
-      <!--Theme Swapper-->
-      <themer />
       <!--Index Page Loader-->
       <nuxt />
     </div>
@@ -28,8 +29,32 @@
 </template>
 
 <style>
-.scrollbar-hidden::-webkit-scrollbar {
-  display: none;
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity 0.5s;
+}
+.layout-enter,
+.layout-leave-to {
+  opacity: 0;
+}
+
+.slide-bottom-enter-active,
+.slide-bottom-leave-active {
+  transition: opacity 0.25s ease-in-out, transform 0.3s ease-in-out;
+}
+.slide-bottom-enter,
+.slide-bottom-leave-to {
+  opacity: 0;
+  transform: translate3d(0, 15px, 0);
 }
 </style>
 
