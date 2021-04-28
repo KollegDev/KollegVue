@@ -62,14 +62,12 @@
 
 <script>
 import CircleItem from '~/components/CircleItem'
-import Themer from '~/components/Themer'
 import Sidebar from '~/components/Sidebar'
 import ThemeButton from '~/components/ThemeButton'
 
 export default {
   components: {
     CircleItem,
-    Themer,
     Sidebar,
     ThemeButton,
   },
