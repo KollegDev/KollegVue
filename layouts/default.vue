@@ -5,7 +5,11 @@
 
       <circle-item icon="bxs-school" info="Lehrer" />
 
-      <circle-item icon="bxs-component" info="Projekte" />
+      <circle-item
+        icon="bxs-component"
+        info="Projekte"
+        subpage="/projectGallery"
+      />
 
       <circle-item icon="bxs-graduation" info="Schüler" />
 
