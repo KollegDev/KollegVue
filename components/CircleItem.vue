@@ -11,7 +11,7 @@
 
 <style lang="postcss" scoped>
 .circle {
-  @apply flex items-center justify-center m-3 font-bold border-4 rounded-full w-14 h-14 cursor-pointer;
+  @apply flex items-center justify-center m-3 font-bold border-4 rounded-full w-14 h-14 cursor-pointer shadow-md;
   &.circle-color {
     @apply border-light text-black dark:text-white dark:border-dark;
     &:hover {
