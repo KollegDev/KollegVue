@@ -1,4 +1,4 @@
-# static_kolleg
+# KollegHP in Vue 3
 
 ## Build Setup
 
@@ -16,5 +16,3 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
