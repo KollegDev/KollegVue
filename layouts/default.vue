@@ -19,10 +19,8 @@
 
       <circle-item icon="bx-mail-send" info="Kontakt" />
 
-      <circle-item icon="bx-dollar" info="Doge" subpage="/projects/doge" />
-
       <!--Theme Swapper-->
-      <themer />
+      <theme-button />
     </sidebar>
     <!--Main Menu-->
     <div class="flex-grow overflow-y-auto sm:overflow-y-scroll scrollbar-hide">
@@ -66,12 +64,14 @@
 import CircleItem from '~/components/CircleItem'
 import Themer from '~/components/Themer'
 import Sidebar from '~/components/Sidebar'
+import ThemeButton from '~/components/ThemeButton'
 
 export default {
   components: {
     CircleItem,
     Themer,
     Sidebar,
+    ThemeButton,
   },
 }
 </script>
