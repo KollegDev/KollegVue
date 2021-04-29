@@ -59,3 +59,9 @@
   @apply text-xl text-light dark:text-dark;
 }
 </style>
+
+<script>
+export default {
+  transition: 'slide-bottom',
+}
+</script>

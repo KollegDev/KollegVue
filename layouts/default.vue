@@ -17,9 +17,9 @@
 
       <circle-item icon="bx-briefcase" info="Berufe" />
 
-      <circle-item icon="bx-female-sign" info="Frauen" />
+      <circle-item icon="bx-female-sign" info="Frauen" subpage="/women" />
 
-      <circle-item icon="bx-mail-send" info="Kontakt" subpage="contact" />
+      <circle-item icon="bx-mail-send" info="Kontakt" subpage="/contact" />
 
       <!--Theme Swapper-->
       <theme-button />

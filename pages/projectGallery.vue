@@ -6,6 +6,7 @@
 import ProjectGallery from '~/components/ProjectGallery'
 
 export default {
+  transition: 'slide-bottom',
   components: {
     ProjectGallery,
   },
