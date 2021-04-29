@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-col">
+  <div class="sticky top-0 h-screen">
     <nuxt-link to="/">
       <h1 class="main-icon">IT_</h1>
     </nuxt-link>

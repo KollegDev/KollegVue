@@ -8,7 +8,7 @@
           alt="Frau am Laptop"
           title="Frauen in der IT"
         />
-        <div class="pictures"></div>
+        <div class="pictures blury"></div>
       </div>
 
       <div class="flex flex-col gap-3">
@@ -65,7 +65,7 @@
           alt="Bild von einem Team"
           title="Kolleg für Informatik-Systemtechnik"
         />
-        <div class="pictures"></div>
+        <div class="pictures blury"></div>
       </div>
     </div>
 
@@ -133,7 +133,7 @@
             alt="Bild"
             title="Initiative 1"
           />
-          <div class="pictures"></div>
+          <div class="pictures blury"></div>
         </div>
       </div>
       <div class="flex flex-col">
@@ -155,7 +155,7 @@
           alt="Bild"
           title="Initiative 2"
         />
-        <div class="pictures"></div>
+        <div class="pictures blury"></div>
       </div>
     </div>
   </div>
@@ -164,6 +164,13 @@
 <style lang="postcss">
 .pictures {
   @apply h-16 p-2 shadow-md w-96 rounded-b-2xl;
+}
+
+.blury {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0px 7px 12px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  margin-top: -4px;
 }
 </style>
 

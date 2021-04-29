@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="pb-8">
     <vue-masonry-wall :items="items" :options="options" @append="append">
       <template v-slot:default="{ item }">
         <div class="Item">
@@ -46,7 +46,7 @@ export default {
       options: {
         width: 650,
         padding: {
-          default: 12,
+          default: 8,
         },
       },
       items: [],

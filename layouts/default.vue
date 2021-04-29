@@ -1,8 +1,6 @@
 <template>
-  <div
-    class="flex h-screen transition duration-200 ease-linear bg-white dark:bg-black"
-  >
-    <sidebar class="hidden sm:flex">
+  <div class="flex transition duration-200 ease-linear bg-white dark:bg-black">
+    <sidebar>
       <circle-item icon="bx-book" info="Fächer" />
 
       <circle-item icon="bxs-school" info="Lehrer" />
@@ -25,7 +23,7 @@
       <theme-button />
     </sidebar>
     <!--Main Menu-->
-    <div class="flex-grow overflow-y-auto sm:overflow-y-scroll scrollbar-hide">
+    <div class="flex-grow">
       <!--Index Page Loader-->
       <nuxt />
     </div>

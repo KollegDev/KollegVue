@@ -25,7 +25,7 @@
 }
 
 .icon {
-  @apply flex items-center;
+  @apply sm:flex items-center hidden;
   &:hover {
     .text-format {
       @apply translate-x-0 opacity-100;
