@@ -31,6 +31,13 @@
 </template>
 
 <style>
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
 .page-enter-active,
 .page-leave-active {
   transition: opacity 0.25s;
