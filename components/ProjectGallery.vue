@@ -26,11 +26,11 @@ h2 {
 }
 
 .Item {
-  @apply dark:bg-gray-300 shadow-lg  duration-200 ease-linear transform-gpu hover:opacity-50 hover:border-light hover:border-4 dark:hover:border-dark;
+  @apply dark:bg-darkgrey shadow-md duration-200 ease-linear transform-gpu hover:opacity-50 hover:border-light hover:border-4 dark:hover:border-dark;
 }
 
 .Content {
-  @apply dark:text-black;
+  @apply dark:text-white;
 }
 </style>
 

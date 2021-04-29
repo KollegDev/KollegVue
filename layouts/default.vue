@@ -1,5 +1,7 @@
 <template>
-  <div class="flex h-screen bg-white dark:bg-black">
+  <div
+    class="flex h-screen transition duration-200 ease-linear bg-white dark:bg-black"
+  >
     <sidebar class="hidden sm:flex">
       <circle-item icon="bx-book" info="Fächer" />
 
@@ -17,7 +19,7 @@
 
       <circle-item icon="bx-female-sign" info="Frauen" />
 
-      <circle-item icon="bx-mail-send" info="Kontakt" />
+      <circle-item icon="bx-mail-send" info="Kontakt" subpage="contact" />
 
       <!--Theme Swapper-->
       <theme-button />
@@ -33,7 +35,7 @@
 <style>
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 0.5s;
+  transition: opacity 0.25s;
 }
 .page-enter,
 .page-leave-to {
@@ -42,7 +44,7 @@
 
 .layout-enter-active,
 .layout-leave-active {
-  transition: opacity 0.5s;
+  transition: opacity 0.25s;
 }
 .layout-enter,
 .layout-leave-to {
@@ -51,7 +53,7 @@
 
 .slide-bottom-enter-active,
 .slide-bottom-leave-active {
-  transition: opacity 0.25s ease-in-out, transform 0.3s ease-in-out;
+  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out;
 }
 .slide-bottom-enter,
 .slide-bottom-leave-to {
