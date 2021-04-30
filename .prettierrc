@@ -1,8 +1,8 @@
 {
   "parser": "vue",
-  "useTabs": false,
-  "tabWidth": 2,
+  "useTabs": true,
+  "tabWidth": 1,
   "endOfLine": "lf",
   "semi": false,
-  "singleQuote": true
+  "singleQuote": false
 }

@@ -1,14 +1,14 @@
 <template>
-  <project-gallery></project-gallery>
+	<project-gallery></project-gallery>
 </template>
 
 <script>
-import ProjectGallery from '~/components/ProjectGallery'
+import ProjectGallery from "~/components/ProjectGallery"
 
 export default {
-  transition: 'slide-bottom',
-  components: {
-    ProjectGallery,
-  },
+	transition: "slide-bottom",
+	components: {
+		ProjectGallery,
+	},
 }
 </script>
