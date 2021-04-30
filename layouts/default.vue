@@ -2,7 +2,7 @@
 	<div
 		class="flex h-full transition duration-200 ease-linear bg-white dark:bg-black"
 	>
-		<sidebar>
+		<sidebar class="hidden sm:block">
 			<circle-item icon="bx-book" info="Fächer" />
 
 			<circle-item icon="bxs-school" info="Lehrer" subpage="/teachers" />
@@ -28,6 +28,35 @@
 		<div class="flex-grow">
 			<!--Index Page Loader-->
 			<nuxt />
+		</div>
+		<!--Mobile Menu-->
+		<div class="mt-5 mr-5 sm:hidden" id="app">
+			<nav class="main-nav">
+				<div class="logo"></div>
+				<mobile-burger></mobile-burger>
+			</nav>
+			<mobile-sidebar>
+				<circle-item icon="bx-book" info="Fächer" />
+
+				<circle-item icon="bxs-school" info="Lehrer" subpage="/teachers" />
+
+				<circle-item
+					icon="bxs-component"
+					info="Projekte"
+					subpage="/projectGallery"
+				/>
+
+				<circle-item icon="bxs-graduation" info="Schüler" />
+
+				<circle-item icon="bx-briefcase" info="Jobbörse" />
+
+				<circle-item icon="bx-female-sign" info="Frauen" subpage="/women" />
+
+				<circle-item icon="bx-mail-send" info="Kontakt" subpage="/contact" />
+
+				<!--Theme Swapper-->
+				<theme-button />
+			</mobile-sidebar>
 		</div>
 	</div>
 </template>
@@ -73,12 +102,16 @@ body::-webkit-scrollbar {
 import CircleItem from "~/components/CircleItem"
 import Sidebar from "~/components/Sidebar"
 import ThemeButton from "~/components/ThemeButton"
+import MobileBurger from "~/components/M_BurgerMenu/MobileBurger"
+import MobileSidebar from "~/components/M_BurgerMenu/MobileSidebar"
 
 export default {
 	components: {
 		CircleItem,
 		Sidebar,
 		ThemeButton,
+		MobileBurger,
+		MobileSidebar,
 	},
 }
 </script>

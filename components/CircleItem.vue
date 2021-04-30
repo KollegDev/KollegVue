@@ -6,6 +6,7 @@
 			</div>
 		</nuxt-link>
 		<div class="text-format">{{ info }}</div>
+		<div class="sm:hidden text-format-mobile">{{ info }}</div>
 	</div>
 </template>
 
@@ -21,11 +22,13 @@
 }
 
 .text-format {
+	@apply invisible sm:visible text-black text-2xl transform-gpu duration-200 -translate-x-full opacity-0 dark:text-white;
+}
+.text-format-mobile {
 	@apply text-black text-2xl transform-gpu duration-200 -translate-x-full opacity-0 dark:text-white;
 }
-
 .icon {
-	@apply sm:flex items-center hidden;
+	@apply flex items-center;
 	&:hover {
 		.text-format {
 			@apply translate-x-0 opacity-100;
