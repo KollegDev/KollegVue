@@ -39,6 +39,6 @@ export default {
 }
 
 .sidebar-panel {
-	@apply overflow-y-auto w-1/2 h-full left-0 top-0 z-10 fixed bg-opacity-70 dark:bg-opacity-70 bg-white dark:bg-black;
+	@apply overflow-y-auto w-3/4 h-full left-0 top-0 z-10 fixed bg-opacity-70 dark:bg-opacity-90 bg-white dark:bg-black;
 }
 </style>

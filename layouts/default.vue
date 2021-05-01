@@ -25,16 +25,13 @@
 			<theme-button />
 		</sidebar>
 		<!--Main Menu-->
-		<div class="flex-grow">
+		<div id="pages" class="flex-grow">
 			<!--Index Page Loader-->
 			<nuxt />
 		</div>
 		<!--Mobile Menu-->
-		<div class="mt-5 mr-5 sm:hidden" id="app">
-			<nav class="main-nav">
-				<div class="logo"></div>
-				<mobile-burger></mobile-burger>
-			</nav>
+		<div class="z-20 mr-10 -ml-7 sm:hidden">
+			<mobile-burger></mobile-burger>
 			<mobile-sidebar>
 				<circle-item icon="bx-book" info="Fächer" />
 
@@ -65,6 +62,10 @@
 body {
 	-ms-overflow-style: none;
 	scrollbar-width: none; /* Firefox */
+}
+.blurPage {
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
 }
 body::-webkit-scrollbar {
 	display: none;

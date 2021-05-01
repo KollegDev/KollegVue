@@ -5,8 +5,13 @@
 				<slot><i class="bx bx-tada-hover bx-md" :class="icon"></i></slot>
 			</div>
 		</nuxt-link>
-		<div class="text-format">{{ info }}</div>
-		<div class="sm:hidden text-format-mobile">{{ info }}</div>
+		<div id="tfm" class="sm:hidden text-format-mobile">
+			{{ info }}
+		</div>
+		<div
+			class="mr-5 text-black dark:text-white sm:hidden bx bx-right-arrow"
+		></div>
+		<div class="hidden sm:flex text-format">{{ info }}</div>
 	</div>
 </template>
 
@@ -25,10 +30,10 @@
 	@apply invisible sm:visible text-black text-2xl transform-gpu duration-200 -translate-x-full opacity-0 dark:text-white;
 }
 .text-format-mobile {
-	@apply text-black text-2xl transform-gpu duration-200 -translate-x-full opacity-0 dark:text-white;
+	@apply text-black text-2xl dark:text-white;
 }
 .icon {
-	@apply flex items-center;
+	@apply flex items-center justify-between;
 	&:hover {
 		.text-format {
 			@apply translate-x-0 opacity-100;

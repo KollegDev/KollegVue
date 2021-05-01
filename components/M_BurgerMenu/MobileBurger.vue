@@ -1,11 +1,10 @@
 <template>
 	<div id="burger" :class="{ active: isBurgerActive }" @click.prevent="toggle">
 		<slot>
-			<button type="button" class="burger-button" title="Menu">
-				<span class="hidden">Toggle menu</span>
+			<div type="button" class="burger-button" title="Menu">
 				<span class="burger-bar burger-bar--1"></span>
 				<span class="burger-bar burger-bar--2"></span>
-			</button>
+			</div>
 		</slot>
 	</div>
 </template>
@@ -28,9 +27,7 @@ export default {
 
 <style lang="postcss" scoped>
 .burger-bar {
-	@apply bg-black dark:bg-white absolute right-1.5 left-1.5 top-3 h-0.5 w-7;
-}
-.burger-bar {
+	@apply bg-black dark:bg-white fixed z-10 top-3 h-0.5 w-7 mt-1;
 	transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1),
 		background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -39,15 +36,9 @@ export default {
 }
 
 .burger-button {
-	@apply relative block z-10 w-7 h-7 border-0 bg-transparent;
-}
-.burger-button {
+	@apply fixed cursor-pointer block z-20 top-3 h-0.5 w-7 h-8 border-0 bg-transparent;
 	pointer-events: all;
 	transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.hidden {
-	@apply hidden;
 }
 
 button {
@@ -62,14 +53,11 @@ button:focus {
 .burger-bar--1 {
 	-webkit-transform: translateY(-6px);
 	transform: translateY(-6px);
+	transform: scaleX(1);
 }
 
 .burger-bar--2 {
-	transform: translateY(8px);
-}
-
-#burger.active .burger-button {
-	transform: rotate(-180deg);
+	transform: translateY(6px);
 }
 
 #burger.active .burger-bar--1 {
