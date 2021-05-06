@@ -49,6 +49,7 @@ export default {
 					default: 8,
 				},
 			},
+			throttle: 300,
 			items: [],
 		}
 	},
@@ -70,6 +71,10 @@ export default {
 
 	destroyed() {
 		initial = true
+	},
+
+	async created() {
+		this.append()
 	},
 }
 </script>
