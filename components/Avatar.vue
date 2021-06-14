@@ -1,5 +1,5 @@
 <template>
-	<div class="p-2 sm:w-1/4" data-aos="zoom-out">
+	<div class="p-2 sm:w-1/4" data-aos="zoom-in">
 		<div class="py-8 text-center">
 			<div class="mb-3">
 				<img
