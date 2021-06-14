@@ -1,58 +1,53 @@
 <template>
-	<div class="avatarSpace">
-		<item-carousel>
-			<slide :index="0">
-				<img
-					src="https://htl.moedling.at/fileadmin/_processed_/csm_Hack_3e3d36ab0a.jpg"
-				/>
-				<h1>Niklas Hack</h1>
-			</slide>
-			<slide :index="1">
-				<img
-					src="https://htl.moedling.at/fileadmin/_processed_/csm_Niedrist_4bf9c6b0dc.jpg"
-				/>
-			</slide>
-			<slide :index="2">
-				<img
-					src="https://htl.moedling.at/fileadmin/_processed_/csm_Fuxreiter_3feaae038f.jpg"
-				/>
-			</slide>
-			<slide :index="3">
-				<img
-					src="https://htl.moedling.at/fileadmin/_processed_/csm_Kner_7090e30948.jpg"
-				/>
-			</slide>
-			<slide :index="4">
-				<img
-					src="https://htl.moedling.at/fileadmin/_processed_/csm_Zacherl_add05cc5d2.jpg"
-			/></slide>
-			<slide :index="5">
-				<img
-					src="https://htl.moedling.at/fileadmin/_processed_/csm_Weiss_c5ef5ea450.jpg"
-			/></slide>
-		</item-carousel>
+	<div>
+		<h1 class="mt-4 text-4xl font-semibold text-center text-light dark:text-dark">
+			Theorie Lehrer
+		</h1>
+		<div
+			class="flex flex-col flex-wrap justify-around border-t-4 sm:mr-10 border-dark sm:flex-row"
+		>
+			<avatar
+				name="Niklas Hack"
+				description="MEDT | POS | DBI | SYP"
+				image="https://htl.moedling.at/fileadmin/elektronik/bilder/theorielehrer/Hack.jpg"
+			></avatar>
+			<avatar
+				name="Silvia Niedrist"
+				description="MEDT | POS"
+				image="https://htl.moedling.at/fileadmin/elektronik/bilder/theorielehrer/Niedrist.jpg"
+			></avatar>
+			<avatar></avatar>
+			<avatar></avatar>
+			<avatar></avatar>
+			<avatar></avatar>
+			<avatar></avatar>
+		</div>
+		<h1 class="mt-4 text-4xl font-semibold text-center text-light dark:text-dark">
+			Werkstätten Lehrer
+		</h1>
+		<div
+			class="flex flex-col flex-wrap border-t-4 sm:mr-10 sm:flex-row border-dark"
+		>
+			<avatar></avatar>
+			<avatar></avatar>
+			<avatar></avatar>
+			<avatar></avatar>
+			<avatar></avatar>
+			<avatar></avatar>
+			<avatar></avatar>
+			<avatar></avatar>
+		</div>
 	</div>
 </template>
-
-<style lang="postcss" scoped>
-.carousel-3d-slide {
-	@apply bg-none sm:rounded-full rounded-l-3xl shadow-md;
-}
-
-.avatarSpace {
-	@apply flex pt-10 z-10;
-}
-</style>
+<style lang="postcss" scoped />
 
 <script>
-import ItemCarousel from "~/components/ItemCarousel"
-import { Slide } from "vue-carousel-3d"
+import Avatar from "~/components/Avatar"
 
 export default {
 	transition: "slide-bottom",
 	components: {
-		ItemCarousel,
-		Slide,
+		Avatar,
 	},
 }
 </script>

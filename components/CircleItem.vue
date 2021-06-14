@@ -8,9 +8,7 @@
 		<div id="tfm" class="sm:hidden text-format-mobile">
 			{{ info }}
 		</div>
-		<div
-			class="mr-5 text-black dark:text-white sm:hidden bx bx-right-arrow"
-		></div>
+		<div class="text-black dark:text-white sm:hidden bx bx-right-arrow"></div>
 		<div class="hidden sm:flex text-format">{{ info }}</div>
 	</div>
 </template>

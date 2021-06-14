@@ -13,9 +13,7 @@
 				subpage="/projectGallery"
 			/>
 
-			<circle-item icon="bxs-graduation" info="Schüler" />
-
-			<circle-item icon="bx-briefcase" info="Jobbörse" />
+			<circle-item icon="bxs-camera" info="Galerie" subpage="/imageGallery" />
 
 			<circle-item icon="bx-female-sign" info="Frauen" subpage="/women" />
 

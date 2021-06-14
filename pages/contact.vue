@@ -4,7 +4,7 @@
 			<div class="hidden lg:block">
 				<img
 					src="https://cdn.pixabay.com/photo/2019/11/10/08/22/school-4615187_1280.jpg"
-					class="w-96 min-w-96 rounded-2xl"
+					class="shadow-xl w-96 min-w-96 rounded-2xl"
 					alt="Foto von der HTL"
 					title="HTL"
 				/>
