@@ -2,7 +2,7 @@
 	<div class="icon">
 		<nuxt-link :to="subpage">
 			<div class="circle circle-color">
-				<slot><i class="bx bx-tada-hover bx-md" :class="icon"></i></slot>
+				<slot><i class="bx bx-md" :class="icon"></i></slot>
 			</div>
 		</nuxt-link>
 		<div id="tfm" class="sm:hidden text-format-mobile">

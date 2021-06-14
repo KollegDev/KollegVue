@@ -25,7 +25,7 @@
 			<theme-button />
 		</sidebar>
 		<!--Main Menu-->
-		<div id="pages" class="flex-grow">
+		<div id="pages" class="flex-grow h-full min-h-screen">
 			<!--Index Page Loader-->
 			<nuxt />
 		</div>
