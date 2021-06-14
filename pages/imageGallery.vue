@@ -2,7 +2,7 @@
 	<div class="m-8">
 		<vue-masonry-wall :items="items" :options="options" @append="append">
 			<template v-slot:default="{ item }">
-				<div class="Item">
+				<div class="Item" data-aos="flip-up">
 					<viewer class="viewer" ref="viewer" :options="gallery">
 						<template>
 							<img :src="item.image" :alt="item.alt" />
@@ -52,6 +52,7 @@ img {
 </style>
 
 <script>
+import aosMixin from "~/mixins/aos"
 import "viewerjs/dist/viewer.css"
 import { component as Viewer } from "v-viewer"
 import VueMasonryWall from "vue-masonry-wall"
@@ -59,6 +60,7 @@ import data from "/static/json/gallery.json"
 var initial = true
 
 export default {
+	mixins: [aosMixin],
 	components: { VueMasonryWall, Viewer },
 	data() {
 		return {

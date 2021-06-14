@@ -1,5 +1,5 @@
 <template>
-	<div class="p-2 sm:w-1/4">
+	<div class="p-2 sm:w-1/4" data-aos="zoom-out">
 		<div class="py-8 text-center">
 			<div class="mb-3">
 				<img
@@ -15,7 +15,11 @@
 </template>
 
 <script>
+import aosMixin from "~/mixins/aos"
+
 export default {
+	mixins: [aosMixin],
+	transition: "slide-bottom",
 	props: {
 		name: {
 			type: String,
