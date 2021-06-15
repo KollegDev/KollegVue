@@ -65,7 +65,7 @@ export default {
 	data() {
 		return {
 			options: {
-				width: 650,
+				width: 400,
 				padding: {
 					default: 8,
 				},
@@ -75,7 +75,7 @@ export default {
 				toolbar: false,
 				button: false,
 			},
-			throttle: 300,
+			throttle: 0,
 			items: [],
 		}
 	},
@@ -103,7 +103,7 @@ export default {
 		initial = true
 	},
 
-	async created() {
+	created() {
 		this.append()
 	},
 }

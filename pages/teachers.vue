@@ -4,7 +4,7 @@
 			Theorie Lehrer
 		</h1>
 		<div
-			class="flex flex-col flex-wrap justify-around border-t-4 sm:mr-10 border-dark sm:flex-row"
+			class="flex flex-col flex-wrap justify-around ml-2 border-t-4 sm:mr-10 border-dark sm:flex-row"
 		>
 			<avatar
 				name="Dipl. Ing. Niklas Hack"

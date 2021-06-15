@@ -2,17 +2,26 @@
 	<div class="p-2 sm:w-1/4" data-aos="zoom-in">
 		<div class="py-8 text-center">
 			<div class="mb-3">
-				<img
-					class="object-cover w-56 h-56 mx-auto rounded-full shadow-md"
-					:src="image"
-					alt=""
-				/>
+				<img :src="image" />
 			</div>
-			<h2 class="text-2xl font-medium text-dark">{{ name }}</h2>
-			<span class="block mb-5 text-black dark:text-white">{{ description }}</span>
+			<h2 class="name">{{ name }}</h2>
+			<span class="description">{{ description }}</span>
 		</div>
 	</div>
 </template>
+
+<style lang="postcss" scoped>
+.name {
+	@apply text-2xl font-medium text-dark;
+}
+.description {
+	@apply block mb-5 font-medium text-black dark:text-white;
+}
+
+img {
+	@apply object-cover w-56 h-56 mx-auto rounded-full shadow-md;
+}
+</style>
 
 <script>
 import aosMixin from "~/mixins/aos"
@@ -37,5 +46,3 @@ export default {
 	},
 }
 </script>
-
-<style></style>

@@ -16,6 +16,7 @@
     "markdown-it-div": "^1.1.0",
     "nuxt": "^2.15.3",
     "v-viewer": "^1.6.3",
+    "vue-carousel": "^0.18.0",
     "vue-masonry-wall": "^0.3.2"
   },
   "devDependencies": {

@@ -3,7 +3,7 @@
 		class="flex h-full transition duration-200 ease-linear bg-white dark:bg-black"
 	>
 		<sidebar class="hidden sm:block">
-			<circle-item icon="bx-book" info="Fächer" />
+			<circle-item icon="bx-book" info="Fächer" subpage="/subjects" />
 
 			<circle-item icon="bxs-school" info="Lehrer" subpage="/teachers" />
 
@@ -31,7 +31,7 @@
 		<div class="z-20 mr-10 -ml-7 sm:hidden">
 			<mobile-burger></mobile-burger>
 			<mobile-sidebar>
-				<circle-item icon="bx-book" info="Fächer" />
+				<circle-item icon="bx-book" info="Fächer" subpage="/subjects" />
 
 				<circle-item icon="bxs-school" info="Lehrer" subpage="/teachers" />
 
@@ -41,9 +41,7 @@
 					subpage="/projectGallery"
 				/>
 
-				<circle-item icon="bxs-graduation" info="Schüler" />
-
-				<circle-item icon="bx-briefcase" info="Jobbörse" />
+				<circle-item icon="bxs-camera" info="Galerie" subpage="/imageGallery" />
 
 				<circle-item icon="bx-female-sign" info="Frauen" subpage="/women" />
 
