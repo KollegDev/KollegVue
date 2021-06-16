@@ -23,12 +23,12 @@
 			<theme-button />
 		</sidebar>
 		<!--Main Menu-->
-		<div id="pages" class="flex-grow h-full min-h-screen">
+		<div id="pages" class="flex-grow w-full h-full min-h-screen min-w-screen">
 			<!--Index Page Loader-->
 			<nuxt />
 		</div>
 		<!--Mobile Menu-->
-		<div class="z-20 mr-10 -ml-7 sm:hidden">
+		<div class="z-20 mr-10 -ml-8 sm:hidden">
 			<mobile-burger></mobile-burger>
 			<mobile-sidebar>
 				<circle-item icon="bx-book" info="Fächer" subpage="/subjects" />

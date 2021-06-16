@@ -1,6 +1,6 @@
 <template>
 	<div class="p-8">
-		<div class="h-72 display-block">
+		<div class="h-72">
 			<img :src="image" class="object-cover w-full shadow-md h-72 rounded-t-2xl" />
 		</div>
 
@@ -21,7 +21,7 @@
 }
 
 .descBox {
-	@apply bg-white rounded-b-2xl shadow-lg dark:bg-darkgrey p-4 text-lg;
+	@apply bg-white rounded-b-2xl shadow-lg dark:bg-darkgrey p-4 text-lg flex-shrink;
 }
 </style>
 
