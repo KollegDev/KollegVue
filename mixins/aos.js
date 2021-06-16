@@ -6,6 +6,7 @@ export default {
     mounted() {
       AOS.init({ mirror: true, duration: 400, offset: 70, startEvent: 'DOMContentLoaded', })
       setTimeout(function(){ AOS.refreshHard(); }, 500);
-      setInterval(function(){ AOS.refresh(); }, 5000);
+      setTimeout(function(){ AOS.refreshHard(); }, 1000);
+      setInterval(function(){ AOS.refresh(); }, 3000);
     }
 };
