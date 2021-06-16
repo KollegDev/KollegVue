@@ -36,7 +36,7 @@ export default {
 }
 
 .burger-button {
-	@apply fixed cursor-pointer block z-20 top-3 h-0.5 w-7 h-8 border-0 bg-transparent;
+	@apply fixed cursor-pointer block z-20 top-3 w-7 h-8 border-0 bg-transparent;
 	pointer-events: all;
 	transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }

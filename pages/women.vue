@@ -4,11 +4,11 @@
 			<div class="flex-col">
 				<img
 					src="https://cdn.pixabay.com/photo/2017/08/02/01/11/people-2569404_1280.jpg"
-					class="rounded-t-xl w-96"
+					class="rounded-xl w-96"
 					alt="Frau am Laptop"
 					title="Frauen in der IT"
 				/>
-				<div class="pictures blury"></div>
+				<div class="pictures"></div>
 			</div>
 
 			<div class="flex flex-col gap-3">

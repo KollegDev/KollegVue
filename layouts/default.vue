@@ -1,29 +1,23 @@
 <template>
 	<div
-		class="flex h-full transition duration-200 ease-linear bg-white dark:bg-black"
+		class="flex flex-col min-h-screen p-4 transition duration-200 ease-linear bg-white dark:bg-black"
 	>
-		<sidebar class="hidden sm:block">
-			<circle-item icon="bx-book" info="Fächer" subpage="/subjects" />
-
-			<circle-item icon="bxs-school" info="Lehrer" subpage="/teachers" />
-
-			<circle-item
+		<topbar>
+			<circle-item-top
 				icon="bxs-component"
 				info="Projekte"
 				subpage="/projectGallery"
 			/>
-
-			<circle-item icon="bxs-camera" info="Galerie" subpage="/imageGallery" />
-
-			<circle-item icon="bx-female-sign" info="Frauen" subpage="/women" />
-
-			<circle-item icon="bx-mail-send" info="Kontakt" subpage="/contact" />
-
-			<!--Theme Swapper-->
+			<circle-item-top icon="bxs-camera" info="Galerie" subpage="/imageGallery" />
+			<circle-item-top icon="bx-book" info="Fächer" subpage="/subjects" />
+			<circle-item-top icon="bxs-school" info="Lehrer" subpage="/teachers" />
+			<circle-item-top icon="bx-female-sign" info="Frauen" subpage="/women" />
+			<circle-item-top icon="bx-mail-send" info="Kontakt" subpage="/contact" />
+			<circle-item-top icon="bxs-user-plus" info="Anmeldung" subpage="/" />
 			<theme-button />
-		</sidebar>
+		</topbar>
 		<!--Main Menu-->
-		<div id="pages" class="flex-grow w-full h-full min-h-screen min-w-screen">
+		<div id="pages" class="flex-grow">
 			<!--Index Page Loader-->
 			<nuxt />
 		</div>
@@ -97,7 +91,9 @@ body::-webkit-scrollbar {
 
 <script>
 import CircleItem from "~/components/CircleItem"
+import CircleItemTop from "~/components/CircleItemTop"
 import Sidebar from "~/components/Sidebar"
+import Topbar from "~/components/Topbar"
 import ThemeButton from "~/components/ThemeButton"
 import MobileBurger from "~/components/M_BurgerMenu/MobileBurger"
 import MobileSidebar from "~/components/M_BurgerMenu/MobileSidebar"
@@ -105,7 +101,9 @@ import MobileSidebar from "~/components/M_BurgerMenu/MobileSidebar"
 export default {
 	components: {
 		CircleItem,
+		CircleItemTop,
 		Sidebar,
+		Topbar,
 		ThemeButton,
 		MobileBurger,
 		MobileSidebar,

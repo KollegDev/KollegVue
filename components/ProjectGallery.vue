@@ -4,10 +4,17 @@
 			<template v-slot:default="{ item }">
 				<div class="Item">
 					<nuxt-link :to="item.subpage">
-						<img :src="item.image" />
+						<div>
+							<img :src="item.image" />
+						</div>
 						<div class="Content">
-							<h2 class="text-ellipsis-1l">{{ item.title }}</h2>
-							<p class="text-ellipsis-2l">{{ item.content }}</p>
+							<h2 class="text-ellipsis-1l text-light">{{ item.title }}</h2>
+							<h1 class="text-ellipsis-1l text-light">
+								{{ item.semester }}. Semester
+							</h1>
+							<p class="text-black text-ellipsis-2l dark:text-white">
+								{{ item.content }}
+							</p>
 						</div>
 					</nuxt-link>
 				</div>
@@ -18,7 +25,7 @@
 
 <style lang="postcss" scoped>
 section {
-	@apply mx-10 sm:mr-20 mt-10;
+	@apply mx-10 mt-10;
 }
 
 h2 {
@@ -62,6 +69,7 @@ export default {
 						content: e.description,
 						image: e.image,
 						subpage: e.subpage,
+						semester: e.semester,
 					})
 				})
 				initial = false
@@ -84,7 +92,7 @@ export default {
 	overflow: hidden;
 	border-radius: 15px;
 	width: 100%;
-	background: #f5f5f5;
+	background: #eeeeee;
 }
 .Content {
 	padding: 20px;

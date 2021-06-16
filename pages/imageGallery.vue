@@ -65,7 +65,7 @@ export default {
 	data() {
 		return {
 			options: {
-				width: 400,
+				width: 450,
 				padding: {
 					default: 8,
 				},

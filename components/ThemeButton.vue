@@ -21,7 +21,7 @@ button {
 	outline: none;
 }
 .icon {
-	@apply sm:fixed bottom-0 left-0;
+	@apply flex items-end;
 }
 </style>
 
