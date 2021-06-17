@@ -22,7 +22,7 @@
 			<nuxt />
 		</div>
 		<!--Mobile Menu-->
-		<div class="z-20 mr-10 -ml-8 sm:hidden">
+		<div class="z-20 sm:hidden">
 			<mobile-burger></mobile-burger>
 			<mobile-sidebar>
 				<circle-item icon="bx-book" info="Fächer" subpage="/subjects" />

@@ -36,7 +36,7 @@ export default {
 }
 
 .burger-button {
-	@apply fixed cursor-pointer block z-20 top-3 w-7 h-8 border-0 bg-transparent;
+	@apply fixed cursor-pointer block z-20 right-3 w-7 h-8 border-0 bg-transparent;
 	pointer-events: all;
 	transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -54,10 +54,12 @@ button:focus {
 	-webkit-transform: translateY(-6px);
 	transform: translateY(-6px);
 	transform: scaleX(1);
+	height: 2.5px;
 }
 
 .burger-bar--2 {
 	transform: translateY(6px);
+	height: 2.5px;
 }
 
 #burger.active .burger-bar--1 {
