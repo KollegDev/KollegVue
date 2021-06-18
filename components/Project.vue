@@ -16,6 +16,7 @@
 	min-width: 200px;
 	max-width: 100vw;
 	margin: 0 auto;
+	font-size: 1.3em;
 }
 
 .markdown-body table tr {
@@ -25,6 +26,7 @@
 
 .markdown-body img {
 	background-color: rgba(255, 255, 255, 0);
+	margin: auto;
 }
 
 .markdown-body .highlight pre,

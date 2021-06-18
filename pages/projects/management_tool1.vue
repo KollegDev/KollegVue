@@ -4,7 +4,7 @@
 
 <script>
 import Project from "~/components/Project"
-import mdFile from "/static/markdown/taichi.md"
+import mdFile from "/static/markdown/GrossbergerMarkus_Management_Tool.md"
 
 export default {
 	components: {

@@ -4,7 +4,7 @@
 
 <script>
 import Project from "~/components/Project"
-import mdFile from "/static/markdown/doge.md"
+import mdFile from "/static/markdown/KollerFlorianD&D_Character-Generator.md"
 
 export default {
 	components: {
