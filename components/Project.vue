@@ -6,7 +6,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css");
 
 .markdown-body {
-	@apply text-black dark:text-white;
+	@apply text-black dark:text-white px-20;
 }
 </style>
 
