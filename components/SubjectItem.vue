@@ -1,10 +1,14 @@
 <template>
 	<div class="w-full p-8 sm:w-1/2">
+		<div
+			class="absolute transform bg-red-500 -translate-y-52 anchor"
+			:id="shortID"
+		></div>
 		<div class="h-72">
 			<img :src="image" class="object-cover w-full shadow-md h-72 rounded-t-2xl" />
 		</div>
 
-		<div class=" descBox">
+		<div class="descBox">
 			<div class="header">{{ fullHeader }}</div>
 			<div class="txtDescription">{{ description }}</div>
 		</div>
@@ -28,7 +32,7 @@
 <script>
 export default {
 	props: {
-		shortHeader: {
+		shortID: {
 			type: String,
 			default: "SBJT",
 		},
