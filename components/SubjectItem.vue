@@ -1,10 +1,10 @@
 <template>
-	<div class="p-8">
+	<div class="w-full p-8 sm:w-1/2">
 		<div class="h-72">
 			<img :src="image" class="object-cover w-full shadow-md h-72 rounded-t-2xl" />
 		</div>
 
-		<div class="descBox">
+		<div class=" descBox">
 			<div class="header">{{ fullHeader }}</div>
 			<div class="txtDescription">{{ description }}</div>
 		</div>

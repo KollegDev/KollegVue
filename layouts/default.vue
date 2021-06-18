@@ -25,24 +25,26 @@
 		<div class="z-20 sm:hidden">
 			<mobile-burger></mobile-burger>
 			<mobile-sidebar>
-				<circle-item icon="bx-book" info="Fächer" subpage="/subjects" />
+        <div class="preventTouch" @click="closeSidebarPanel">
+          <circle-item icon="bx-book" info="Fächer" subpage="/subjects" />
 
-				<circle-item icon="bxs-school" info="Lehrer" subpage="/teachers" />
+          <circle-item icon="bxs-school" info="Lehrer" subpage="/teachers" />
 
-				<circle-item
-					icon="bxs-component"
-					info="Projekte"
-					subpage="/projectGallery"
-				/>
+          <circle-item
+            icon="bxs-component"
+            info="Projekte"
+            subpage="/projectGallery"
+          />
 
-				<circle-item icon="bxs-camera" info="Galerie" subpage="/imageGallery" />
+          <circle-item icon="bxs-camera" info="Galerie" subpage="/imageGallery" />
 
-				<circle-item icon="bx-female-sign" info="Frauen" subpage="/women" />
+          <circle-item icon="bx-female-sign" info="Frauen" subpage="/women" />
 
-				<circle-item icon="bx-mail-send" info="Kontakt" subpage="/contact" />
+          <circle-item icon="bx-mail-send" info="Kontakt" subpage="/contact" />
 
-				<!--Theme Swapper-->
-				<theme-button />
+          <!--Theme Swapper-->
+          <theme-button />
+        </div>
 			</mobile-sidebar>
 		</div>
 	</div>
@@ -56,6 +58,12 @@ body {
 .blurPage {
 	filter: blur(8px);
 	-webkit-filter: blur(8px);
+  -ms-touch-action: none;
+  touch-action: none;
+}
+.preventTouch{
+  -ms-touch-action: none;
+  touch-action: none;
 }
 body::-webkit-scrollbar {
 	display: none;
@@ -97,6 +105,9 @@ import Topbar from "~/components/Topbar"
 import ThemeButton from "~/components/ThemeButton"
 import MobileBurger from "~/components/M_BurgerMenu/MobileBurger"
 import MobileSidebar from "~/components/M_BurgerMenu/MobileSidebar"
+import { store, mutations } from "@/components/M_BurgerMenu/store.js"
+
+
 
 export default {
 	components: {
@@ -107,6 +118,9 @@ export default {
 		ThemeButton,
 		MobileBurger,
 		MobileSidebar,
+	},
+  methods: {
+		closeSidebarPanel: mutations.toggleNav,
 	},
 }
 </script>
