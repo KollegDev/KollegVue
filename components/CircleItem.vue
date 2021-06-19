@@ -1,16 +1,16 @@
 <template>
-	<div class="icon">
 		<nuxt-link :to="subpage">
+	<div class="icon">
 			<div class="circle circle-color">
 				<slot><i class="bx bx-md" :class="icon"></i></slot>
 			</div>
-		</nuxt-link>
 		<div id="tfm" class="sm:hidden text-format-mobile">
 			{{ info }}
 		</div>
 		<div class="text-black dark:text-white sm:hidden bx bx-right-arrow"></div>
 		<div class="hidden sm:flex text-format">{{ info }}</div>
 	</div>
+		</nuxt-link>
 </template>
 
 <style lang="postcss" scoped>

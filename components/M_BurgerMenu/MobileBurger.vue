@@ -27,7 +27,7 @@ export default {
 
 <style lang="postcss" scoped>
 .burger-bar {
-	@apply bg-black dark:bg-white fixed z-10 top-3 h-0.5 w-7 mt-1;
+	@apply bg-black dark:bg-white fixed z-10 top-3 w-7 mt-1;
 	transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1),
 		background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -36,7 +36,7 @@ export default {
 }
 
 .burger-button {
-	@apply fixed cursor-pointer block z-20 right-3 w-7 h-8 border-0 bg-transparent;
+	@apply fixed cursor-pointer block z-20 right-3 top-2 w-7 h-8 border-0 bg-transparent;
 	pointer-events: all;
 	transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
