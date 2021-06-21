@@ -5,7 +5,7 @@
 				<div class="Item" data-aos="flip-up">
 					<viewer class="viewer" ref="viewer" :options="gallery">
 						<template>
-							<img :src="item.image" :alt="item.alt" />
+							<img :src="item.image" :alt="item.alt" :title="item.title" />
 						</template>
 					</viewer>
 				</div>
@@ -86,6 +86,7 @@ export default {
 					this.items.push({
 						alt: e.alt,
 						image: e.image,
+						title: e.title,
 					})
 				})
 				initial = false
