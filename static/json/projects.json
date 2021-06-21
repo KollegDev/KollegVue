@@ -3,7 +3,7 @@
         "name": "Handball Score Statistics",
         "semester": 2,
         "description": "Torwurf Statistiken für Handball matches",
-        "image": "https://htl.moedling.at/kolleg/images/resources/markdown/HSS1.png",
+        "image": "https://htl.moedling.at/kolleg/images/resources/markdown/HSS1.jpg",
         "subpage": "/projects/handball"
     },
 
@@ -11,14 +11,14 @@
         "name": "DND Charakter erstellung",
         "semester": 2,
         "description": "Dungeons and Dragons (DND) Tool um einen Charakter zu erstellen",
-        "image": "https://htl.moedling.at/kolleg/images/resources/markdown/DND2.png",
+        "image": "https://htl.moedling.at/kolleg/images/resources/markdown/DND2.jpg",
         "subpage": "/projects/dnd_character"
     },
     {
         "name": "Bestellsystem für die Gastronomie",
         "semester": 2,
         "description": "Übersichtliches Bestellsystem für den Einsatz in der Gastronomie",
-        "image": "https://htl.moedling.at/kolleg/images/resources/markdown/Food1.png",
+        "image": "https://htl.moedling.at/kolleg/images/resources/markdown/Food1.jpg",
         "subpage": "/projects/gastronomy_ordersystem"
     },
     {

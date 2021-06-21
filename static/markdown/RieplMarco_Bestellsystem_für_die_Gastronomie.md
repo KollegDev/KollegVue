@@ -8,8 +8,8 @@ Für das Grundgerüst und für die Skizzierung des Programms (Wireframe) habe ic
 
  
 
-![Bestellungsmenü](https://htl.moedling.at/kolleg/images/resources/markdown/Food1.png)
+![Bestellungsmenü](https://htl.moedling.at/kolleg/images/resources/markdown/Food1.jpg)
 
-![Bestellübersicht](https://htl.moedling.at/kolleg/images/resources/markdown/Food2.png)
+![Bestellübersicht](https://htl.moedling.at/kolleg/images/resources/markdown/Food2.jpg)
 
  
