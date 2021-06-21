@@ -7,6 +7,7 @@
 			class="flex flex-col flex-wrap justify-around border-t-4 sm:mr-10 border-dark sm:flex-row"
 		>
 			<subject-item
+				image="https://htl.moedling.at/kolleg/images/subjects/code.jpg"
 				shortID="POS"
 				fullHeader="Programmieren & Systemtechnik (POS)"
 				description="
@@ -19,6 +20,7 @@
 			/>
 
 			<subject-item
+				image="https://htl.moedling.at/kolleg/images/subjects/medt.jpg"
 				shortID="MEDT"
 				fullHeader="Medientechnik (MEDT)"
 				description="
@@ -27,6 +29,7 @@
 			/>
 
 			<subject-item
+				image="https://htl.moedling.at/kolleg/images/subjects/nsvs.jpg"
 				shortID="NSVS"
 				fullHeader="Netzwerktechnik & Verteilte Systeme (NSVS)"
 				description="
@@ -36,6 +39,7 @@
 			/>
 
 			<subject-item
+				image="https://htl.moedling.at/kolleg/images/subjects/dbi.jpg"
 				shortID="DBI"
 				fullHeader="Datenbanken & Informationssysteme (DBI)"
 				description="
@@ -45,6 +49,7 @@
 			/>
 
 			<subject-item
+				image="https://htl.moedling.at/kolleg/images/subjects/syp.jpg"
 				shortID="SYP"
 				fullHeader="Systemplanung & Projektmanagement (SYP)"
 				description="
@@ -53,6 +58,7 @@
 			/>
 
 			<subject-item
+				image="https://htl.moedling.at/kolleg/images/subjects/tinf.jpg"
 				shortID="TIN"
 				fullHeader="Technische Informatik (TINF)"
 				description="
@@ -69,6 +75,7 @@
 			class="flex flex-col flex-wrap justify-around border-t-4 sm:mr-10 border-dark sm:flex-row"
 		>
 			<subject-item
+				image="https://htl.moedling.at/kolleg/images/subjects/math.jpg"
 				shortID="AM"
 				fullHeader="Angewandte Mathematik (AM)"
 				description="
@@ -77,6 +84,7 @@
                 Die technischen Themengebiete werden im 3. und 4. Semester des Kollegs gelehrt."
 			/>
 			<subject-item
+				image="https://htl.moedling.at/kolleg/images/subjects/copr.jpg"
 				shortID="COPR"
 				fullHeader="Computerpraktikum (COPR)"
 				description="
@@ -85,6 +93,7 @@
                 "
 			/>
 			<subject-item
+				image="https://htl.moedling.at/kolleg/images/subjects/german.jpg"
 				shortID="D"
 				fullHeader="Deutsch und Kommunikation (D)"
 				description="
@@ -94,6 +103,7 @@
                 "
 			/>
 			<subject-item
+				image="https://htl.moedling.at/kolleg/images/subjects/english.jpg"
 				shortID="E"
 				fullHeader="Englisch und Kommunikation (E)"
 				description="
@@ -103,6 +113,7 @@
                 "
 			/>
 			<subject-item
+				image="https://htl.moedling.at/kolleg/images/subjects/wir.jpg"
 				shortID="WIR"
 				fullHeader="Wirtschaft und Recht (WIR)"
 				description="
