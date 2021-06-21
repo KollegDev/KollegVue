@@ -7,17 +7,17 @@ Am Ende des zweiten Semesters durften wir uns alle in Programmieren und Mediente
 Für die Website habe ich HTML, CSS und JavaScript verwendet, da das Hauptaugenmerk auf clientseitiger Programmierung lag.
 Alle Daten wurden aus JSON-Files entnommen und grafisch aufbereitet:
 
-![JSON-Datei Übersicht](https://htl.moedling.at/kolleg/images/resources/markdown/DND1.png)
+![JSON-Datei Übersicht](https://htl.moedling.at/kolleg/images/resources/markdown/DND1.jpg)
 
-![Charakter erstellung](https://htl.moedling.at/kolleg/images/resources/markdown/DND2.png)
+![Charakter erstellung](https://htl.moedling.at/kolleg/images/resources/markdown/DND2.jpg)
 
-![Erstellter Charakter](https://htl.moedling.at/kolleg/images/resources/markdown/DND3.png)
+![Erstellter Charakter](https://htl.moedling.at/kolleg/images/resources/markdown/DND3.jpg)
 
  
 
 Für die Desktop-App habe ich Visual Studio als Entwicklungsumgebung benutzt und mit C# und XAML gearbeitet. Auf der Datenbankseite habe ich einen MS-SQL-Server verwendet, der lokal auf meinem Laptop lief, um die Daten bereit zu stellen:
 
-![Cheat Sheet](https://htl.moedling.at/kolleg/images/resources/markdown/DND4.png)
+![Cheat Sheet](https://htl.moedling.at/kolleg/images/resources/markdown/DND4.jpg)
 
 
 

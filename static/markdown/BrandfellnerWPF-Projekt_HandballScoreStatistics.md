@@ -8,17 +8,17 @@ Da es solche Anwendungen schon zuhauf gibt und die meisten von Ihnen wesentlich 
 
  
 
-![Startbildschirm](https://htl.moedling.at/kolleg/images/resources/markdown/HSS1.png)
+![Startbildschirm](https://htl.moedling.at/kolleg/images/resources/markdown/HSS1.jpg)
 
-![Neue Spieldaten eintragen](https://htl.moedling.at/kolleg/images/resources/markdown/HSS2.png)
+![Neue Spieldaten eintragen](https://htl.moedling.at/kolleg/images/resources/markdown/HSS2.jpg)
 
-![Ansicht zum eintragen von Torwürfen](https://htl.moedling.at/kolleg/images/resources/markdown/HSS3.png)
+![Ansicht zum eintragen von Torwürfen](https://htl.moedling.at/kolleg/images/resources/markdown/HSS3.jpg)
 
 In diesem Feld kann man einfach auf einen Punkt klicken und wird daraufhin gefragt, ob der Wurf ein Tor zur Folge hatte oder nicht.
 
  
 
-![Auswertungsansicht](https://htl.moedling.at/kolleg/images/resources/markdown/HSS4.png)
+![Auswertungsansicht](https://htl.moedling.at/kolleg/images/resources/markdown/HSS4.jpg)
 
 Bei der Auswertung sieht man beim aktuellen Version aber nur wo der Wurf passiert ist, nicht ob er auch erfolgreich war.
 
