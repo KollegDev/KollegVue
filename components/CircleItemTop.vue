@@ -1,7 +1,9 @@
 <template>
 	<div class="icon">
 		<nuxt-link :to="subpage">
-			<div class="circle circle-color">
+			<div
+				class="transition-all duration-300 transform scale-100 circle circle-color hover:scale-95"
+			>
 				<slot>
 					<i class="bx bx-md boxicon" :class="icon"> </i>
 					<div class="text-format">{{ info }}</div>
