@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="flex flex-col min-h-screen p-4 transition duration-200 ease-linear bg-white dark:bg-black"
+		class="flex flex-col min-h-screen p-4 transition duration-200 ease-linear bg-white  dark:bg-black"
 	>
 		<topbar>
 			<circle-item-top
@@ -13,7 +13,7 @@
 			<circle-item-top icon="bxs-school" info="Lehrer" subpage="/teachers" />
 			<circle-item-top icon="bx-female-sign" info="Frauen" subpage="/women" />
 			<circle-item-top icon="bx-mail-send" info="Kontakt" subpage="/contact" />
-			<circle-item-top icon="bxs-user-plus" info="Anmeldung" subpage="/" />
+			<circle-item-top icon="bxs-user-plus" info="Anmeldung" subpage="/signup" />
 			<theme-button />
 		</topbar>
 		<!--Main Menu-->

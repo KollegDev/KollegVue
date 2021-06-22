@@ -2,31 +2,38 @@
 	<div class="m-8">
 		<div>
 			<div
-				class="relative p-2 pr-6 text-5xl font-bold text-right text-white shadow-lg rounded-t-2xl dark:text-darkgrey bg-dark"
+				class="relative p-2 pr-6 text-5xl font-bold text-right text-white shadow-lg  rounded-t-2xl dark:text-darkgrey bg-dark"
 			>
 				INFORMATIK & <br />
 				SYSTEMTECHNIK
 			</div>
 		</div>
-		<div class="opacity-70 h-96">
+		<div class="opacity-90 h-96">
 			<img
 				class="h-full shadow-md rounded-b-2xl"
-				src="https://cdn.discordapp.com/attachments/621744068757815306/856592959179718706/8-gigapixel-scale-2_00x.jpg"
+				src="https://cdn.discordapp.com/attachments/689099446105014369/856873399098933248/IMG_20210604_110639edit.jpg"
 			/>
 		</div>
 
-		<!-- 		<div class="flex flex-col justify-around m-auto flex-grow-1 sm:flex-row">
+		<div class="flex flex-col justify-around m-auto flex-grow-1 sm:flex-row">
 			<div class="h-full infobox">
-				<div class="header">Kolleg</div>
-				<div class="description">für alle Studienberechtigten zur IT-Matura</div>
+				<nuxt-link to="/signup">
+					<div class="header">Kolleg</div>
+					<div class="description">
+						für alle Studienberechtigten zur <br />
+						IT-Matura
+					</div>
+				</nuxt-link>
 			</div>
 			<div class="h-full infobox">
-				<div class="header">Aufbaulehrgang</div>
-				<div class="description">
-					für Quereinsteiger und Fachschüler zur BHS-Matura
-				</div>
+				<nuxt-link to="/signup">
+					<div class="header">Aufbaulehrgang</div>
+					<div class="description">
+						für Quereinsteiger und Fachschüler zur BHS-Matura
+					</div>
+				</nuxt-link>
 			</div>
-		</div> -->
+		</div>
 	</div>
 </template>
 
@@ -36,7 +43,7 @@
 }
 
 .infobox {
-	@apply mt-5 text-lg bg-white shadow-lg rounded-2xl text-darkgrey dark:text-white dark:bg-darkgrey;
+	@apply transform transition-all duration-300 scale-100 hover:scale-95 hover:border-light hover:border-4 dark:hover:border-dark w-full mt-5 text-lg bg-white shadow-lg rounded-2xl text-darkgrey dark:text-white dark:bg-darkgrey sm:w-2/6;
 }
 
 .description {
