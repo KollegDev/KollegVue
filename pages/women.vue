@@ -33,10 +33,10 @@
 					erklären sich bereit mehr Frauen in diesem Gebiet einzusetzen.
 				</p>
 				<p class="text-2xl">
-					Dazu hat das österreichische AMS eine Initiative:
+					Dazu hat das österreichische AMS eine Initiative –
 					<a
 						href="https://www.ams.at/arbeitsuchende/karenz-und-wiedereinstieg/so-unterstuetzen-wir-ihren-wiedereinstieg/fit-frauen-in-handwerk-und-technik"
-						>Frauen in Technik
+						>Frauen in Technik.
 					</a>
 				</p>
 			</div>
@@ -60,11 +60,10 @@
 			<div class="flex flex-col">
 				<img
 					src="https://cdn.pixabay.com/photo/2016/03/09/09/22/workplace-1245776_1280.jpg"
-					class="w-96 rounded-t-xl"
+					class="w-96 rounded-xl"
 					alt="Bild von einem Team"
 					title="Kolleg für Informatik-Systemtechnik"
 				/>
-				<div class="pictures blury"></div>
 			</div>
 		</div>
 
@@ -126,11 +125,10 @@
 				<div class="mt-8">
 					<img
 						src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849821_1280.jpg"
-						class="w-96 rounded-t-xl"
+						class="w-96 rounded-xl"
 						alt="Bild"
 						title="Initiative 1"
 					/>
-					<div class="pictures blury"></div>
 				</div>
 			</div>
 			<div class="flex flex-col">
@@ -147,11 +145,10 @@
 			<div class="flex flex-col mt-28">
 				<img
 					src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849821_1280.jpg"
-					class="w-96 rounded-t-xl"
+					class="w-96 rounded-xl"
 					alt="Bild"
 					title="Initiative 2"
 				/>
-				<div class="pictures blury"></div>
 			</div>
 		</div>
 	</div>

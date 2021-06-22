@@ -11,7 +11,7 @@
 		<div class="opacity-90 h-96">
 			<img
 				class="h-full shadow-md rounded-b-2xl"
-				src="https://cdn.discordapp.com/attachments/689099446105014369/856873399098933248/IMG_20210604_110639edit.jpg"
+				src="https://htl.moedling.at/kolleg/images/cover.jpg"
 			/>
 		</div>
 
