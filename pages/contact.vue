@@ -9,7 +9,7 @@
 					title="HTL"
 				/>
 			</div>
-			<div class="flex flex-col justify-between ml-3">
+			<div class="flex flex-col justify-between sm:ml-3">
 				<div class="infobox">
 					<p class="text-base"></p>
 					<div class="toptext">Anschrift</div>

@@ -98,7 +98,7 @@
 		>
 			<div class="h-full infobox">
 				<h1
-					class="pb-1 text-4xl font-semibold text-center text-light dark:text-dark"
+					class="text-3xl font-semibold text-center  sm:text-4xl text-light dark:text-dark"
 				>
 					Kolleg
 				</h1>
@@ -115,7 +115,7 @@
 			</div>
 			<div class="h-full infobox">
 				<h1
-					class="pb-1 text-4xl font-semibold text-center text-light dark:text-dark"
+					class="text-3xl font-semibold text-center  sm:text-4xl text-light dark:text-dark"
 				>
 					Aufbaulehrgang
 				</h1>
@@ -160,6 +160,6 @@
 }
 
 .description {
-	@apply text-2xl font-medium p-6;
+	@apply sm:text-xl font-medium sm:text-center p-3 sm:p-6;
 }
 </style>

@@ -26,6 +26,8 @@
 			<mobile-burger></mobile-burger>
 			<mobile-sidebar>
 				<div class="preventTouch" @click="closeSidebarPanel">
+					<circle-item icon="bx-home" info="Startseite" subpage="/" />
+
 					<circle-item icon="bx-book" info="Fächer" subpage="/subjects" />
 
 					<circle-item icon="bxs-school" info="Lehrer" subpage="/teachers" />
@@ -41,6 +43,8 @@
 					<circle-item icon="bx-female-sign" info="Frauen" subpage="/women" />
 
 					<circle-item icon="bx-mail-send" info="Kontakt" subpage="/contact" />
+
+					<circle-item icon="bxs-user-plus" info="Anmeldung" subpage="/signup" />
 
 					<!--Theme Swapper-->
 					<theme-button @click.native.prevent="closeSidebarPanel" />

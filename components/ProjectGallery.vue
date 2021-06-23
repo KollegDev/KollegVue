@@ -1,5 +1,5 @@
 <template>
-	<section class="pb-8">
+	<section class="pb-8 overflow-x-hidden">
 		<vue-masonry-wall :items="items" :options="options" @append="append">
 			<template v-slot:default="{ item }">
 				<div class="Item">
@@ -25,7 +25,7 @@
 
 <style lang="postcss" scoped>
 section {
-	@apply mx-10 mt-10;
+	@apply sm:mx-10 mt-10;
 }
 
 h2 {

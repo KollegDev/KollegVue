@@ -1,14 +1,14 @@
 <template>
-	<div class="m-8">
+	<div class="w-full sm:m-8">
 		<div>
 			<div
-				class="relative p-2 pr-6 text-5xl font-bold text-right text-white shadow-lg  rounded-t-2xl dark:text-darkgrey bg-dark"
+				class="relative p-2 pr-6 text-3xl font-bold text-right text-white shadow-lg  sm:text-5xl rounded-t-2xl dark:text-darkgrey bg-dark"
 			>
 				INFORMATIK & <br />
 				SYSTEMTECHNIK
 			</div>
 		</div>
-		<div class="opacity-90 h-96">
+		<div class="h-56 opacity-90 sm:h-96">
 			<img
 				class="h-full shadow-md rounded-b-2xl"
 				src="https://htl.moedling.at/kolleg/images/cover.jpg"
@@ -39,7 +39,7 @@
 
 <style lang="postcss" scoped>
 .header {
-	@apply text-5xl text-light font-medium text-center;
+	@apply text-3xl sm:text-5xl text-light font-medium text-center;
 }
 
 .infobox {
@@ -47,7 +47,7 @@
 }
 
 .description {
-	@apply text-3xl font-medium text-center p-6;
+	@apply text-xl sm:text-3xl font-medium text-center p-3 sm:p-6;
 }
 </style>
 

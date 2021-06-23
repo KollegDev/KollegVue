@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full p-8 sm:w-1/2">
+	<div class="w-full mt-2 sm:p-8 sm:w-1/2">
 		<div
 			class="absolute transform bg-red-500 -translate-y-52 anchor"
 			:id="shortID"

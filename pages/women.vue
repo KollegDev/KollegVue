@@ -1,6 +1,6 @@
 <template>
-	<div class="text-black dark:text-white">
-		<div class="gap-8 pl-12 pr-12 mt-10 lg:flex">
+	<div class="overflow-x-hidden text-black dark:text-white">
+		<div class="gap-8 mt-10 sm:pl-12 sm:pr-12 lg:flex">
 			<div class="flex-col">
 				<img
 					src="https://htl.moedling.at/kolleg/images/woman/Frauen_it.jpg"
@@ -12,10 +12,12 @@
 			</div>
 
 			<div class="flex flex-col gap-3">
-				<div class="mt-10 text-3xl font-semibold text-light dark:text-dark">
+				<div
+					class="-mt-12 text-2xl font-semibold  sm:text-3xl sm:mt-10 text-light dark:text-dark"
+				>
 					Warum Frauen in der IT?
 				</div>
-				<p class="text-2xl">
+				<p class="sm:text-xl">
 					Informationstechnologie (IT) ist ein sehr breites Berufsfeld, das zunehmend
 					an Bedeutung gewinnt. Praktisch alle Wirtschaftszweige sind durch die
 					Digitalisierung erfasst. Um hier erfolgreich zu sein, brauchen
@@ -26,13 +28,13 @@
 					Natürlich können auch Frauen hier eine wichtige Rolle spielen. Sie bringen
 					die richtigen Voraussetzungen mit.
 				</p>
-				<p class="text-2xl">
+				<p class="sm:text-xl">
 					Der Frauenanteil in der IT-Branche ist aktuell noch gering. Nur 15,6 % der
 					Fachkräfte in Österreich sind weiblich (Daten aus 2017). Doch immer mehr
 					Unternehmen erkennen die Vorteile der weiblichen Mitarbeiterinnen und
 					erklären sich bereit mehr Frauen in diesem Gebiet einzusetzen.
 				</p>
-				<p class="text-2xl">
+				<p class="sm:text-xl">
 					Dazu hat das österreichische AMS eine Initiative –
 					<a
 						class="underline text-light"
@@ -43,12 +45,12 @@
 			</div>
 		</div>
 
-		<div class="pt-10 pl-12 pr-12 lg:flex">
+		<div class="pt-10 sm:pl-12 sm:pr-12 lg:flex">
 			<div class="flex flex-col gap-3">
-				<div class="text-3xl font-semibold text-light dark:text-dark">
+				<div class="text-2xl font-semibold sm:text-3xl text-light dark:text-dark">
 					Warum das Kolleg für Informatik-Systemtechnik der HTL Mödling?
 				</div>
-				<p class="mb-8 text-2xl">
+				<p class="mb-8 sm:text-xl">
 					Das Kolleg für Informatik-Systemtechnik an der HTL Mödling kombiniert
 					erfolgreich Theorie und Praxis. Vermittelt werden Grundlagen und Konzepte
 					mit Schwerpunkt auf Programmierung, Datenbanken, Netzwerktechnik und
@@ -68,7 +70,9 @@
 				<div class="ml-4 pictures"></div>
 			</div>
 		</div>
-		<h1 class="mt-4 text-4xl font-semibold text-center text-light dark:text-dark">
+		<h1
+			class="mt-4 text-2xl font-semibold text-center  sm:text-3xl text-light dark:text-dark"
+		>
 			Initiativen
 		</h1>
 		<div
@@ -101,13 +105,13 @@
 			/>
 		</div>
 		<h1
-			class="text-4xl font-semibold text-center border-b-4  mt-9 text-light dark:text-dark border-dark"
+			class="text-2xl font-semibold text-center border-b-4  sm:text-3xl mt-9 text-light dark:text-dark border-dark"
 		>
 			Testimonials
 		</h1>
-		<div class="pl-48 pr-48">
-			<div class="p-9">
-				<p class="text-xl italic sm:text-2xl">
+		<div class="sm:pl-48 sm:pr-48">
+			<div class="p-2 sm:p-9">
+				<p class="italic sm:text-xl">
 					„Im Kolleg für Informatik kann man sich in den verschiedensten Bereichen
 					der IT eine gute Basis aneignen. Durch die große Vielfalt, ist für jeden
 					ein Fach dabei, dass einem besonders liegt bzw. interessiert. Auch wenn man
@@ -122,13 +126,13 @@
 					Kollegen. Dadurch ergibt sich eine Vielfalt an Lösungsvarianten und eine
 					harmonische Ausgeglichenheit innerhalb der Teams.“
 				</p>
-				<p class="text-right">
+				<p class="text-sm text-right">
 					Catrina K, Absolventin der HTL Mödling - Kolleg für Informatik -
 					Systemtechnik
 				</p>
 			</div>
-			<div class="p-9">
-				<p class="text-xl italic sm:text-2xl">
+			<div class="p-2 sm:p-9">
+				<p class="italic sm:text-xl">
 					• „Weil die Kombination von social Skills mit technischem Fachwissen am
 					Arbeitsmarkt gefragter denn je ist.<br />
 					• Weil eine kaufmännische Berufserfahrung gepaart mit Technikausbildung
@@ -137,24 +141,24 @@
 					bietet.<br />
 					• Weil einfach nichts dagegenspricht!“
 				</p>
-				<p class="text-right">
+				<p class="text-sm text-right">
 					Chris, Absolventin der HTL Mödling - Kolleg für Informatik - Systemtechnik
 				</p>
 			</div>
-			<div class="p-9">
-				<p class="text-xl italic sm:text-2xl">
+			<div class="p-2 sm:p-9">
+				<p class="italic sm:text-xl">
 					„Das Informatik Kolleg an der HTL Mödling hat mir einen guten Einstieg in
 					die Berufswelt ermöglicht. Die Ausbildung vermittelt ein breitgefächertes
 					Grundwissen über die Bereiche Datenbanken, objektorientiertes Programmieren
 					und Webentwicklung.“
 				</p>
-				<p class="text-right">
+				<p class="text-sm text-right">
 					Michelle K, Absolventin der HTL Mödling - Kolleg für Informatik -
 					Systemtechnik
 				</p>
 			</div>
-			<div class="p-9">
-				<p class="text-xl italic sm:text-2xl">
+			<div class="p-2 sm:p-9">
+				<p class="italic sm:text-xl">
 					„Vier sehr spannende Semester im Kolleg für Informatik. Viel gelernt und
 					viel umgesetzt. Gute Mischung aus Theorie und Praxis. Engagierte
 					Lehrerinnen und Lehrer. Zeitgemäße Inhalte. Sehr gute Chancen für die
@@ -162,7 +166,7 @@
 					leichte Entscheidung war, eine viersemestrige Ausbildung anzufangen, bin
 					ich rückblickend froh darüber diesen Schritt gewagt zu haben.“
 				</p>
-				<p class="text-right">
+				<p class="text-sm text-right">
 					Ivelina T, Absolventin der HTL Mödling - Kolleg für Informatik -
 					Systemtechnik
 				</p>

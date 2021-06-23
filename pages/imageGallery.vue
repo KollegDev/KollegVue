@@ -1,5 +1,5 @@
 <template>
-	<div class="m-8">
+	<div class="overflow-x-hidden sm:m-8">
 		<vue-masonry-wall :items="items" :options="options">
 			<template v-slot:default="{ item }">
 				<div class="Item" data-aos="flip-up">
