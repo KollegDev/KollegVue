@@ -1,12 +1,25 @@
 [
     {
+      "name": "Zwei Jahre in zwei Minuten",
+      "semester": 4,
+      "description": "Eine Reise in zwei Minuten durch die Lerninhalte, Projekte, Vorträge und mehr aus den vier Semestern im Kolleg für Informatik – Systemtechnik.",
+      "image": "https://htl.moedling.at/kolleg/images/projects/2in2/2in2.jpg",
+      "subpage": "/projects/2minuten"
+    },
+    {
+      "name": "Can Swap",
+      "semester": 4,
+      "description": "Kurzes Video im Marketing Stil",
+      "image": "https://htl.moedling.at/kolleg/images/projects/canSwap/canSwap.jpg",
+      "subpage": "/projects/canSwap"
+    },
+    {
         "name": "Handball Score Statistics",
         "semester": 2,
         "description": "Torwurf Statistiken für Handball matches",
         "image": "https://htl.moedling.at/kolleg/images/resources/markdown/HSS1.jpg",
         "subpage": "/projects/handball"
     },
-
     {
         "name": "DND Charakter erstellung",
         "semester": 2,
