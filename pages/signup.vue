@@ -28,7 +28,7 @@
 
 			<div class="box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto">Lehre</div>
+					<div class="col-start-1 col-end-4 m-auto">Keine Vorausbildung</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
 						<i class="bx bx-md bx-down-arrow"></i>
 					</div>
@@ -49,7 +49,7 @@
 			<div class="box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
 					<div class="col-start-1 col-end-4 m-auto">
-						Vorbereitungs-lehrgang <br />(1 Semester)
+						Vorbereitungs-Lehrgang <br />(1 Semester)
 					</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
 						<i class="bx bx-md bx-down-arrow"></i>
@@ -59,7 +59,7 @@
 
 			<div class="box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto">Abschluss-prüfung</div>
+					<div class="col-start-1 col-end-4 m-auto">Abschluss-Prüfung</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
 						<i class="bx bx-md bx-down-arrow"></i>
 					</div>
@@ -89,7 +89,7 @@
 			</div>
 
 			<div class="col-start-1 col-end-4 box">
-				<div class="m-auto">Unterstufe AHS oder Neue Mittelschule</div>
+				<div class="m-auto">Reife- und Diplomprüfung</div>
 			</div>
 		</div>
 
@@ -156,7 +156,7 @@
 }
 
 .infobox {
-	@apply w-full mt-5 text-lg bg-white shadow-lg rounded-2xl text-darkgrey dark:text-white dark:bg-darkgrey sm:w-2/6;
+	@apply w-full mt-5 text-lg bg-white shadow-lg rounded-2xl text-darkgrey dark:text-white dark:bg-darkgrey sm:w-5/12;
 }
 
 .description {
