@@ -13,7 +13,7 @@
 
 			<div class="flex flex-col gap-3">
 				<div
-					class="-mt-12 text-2xl font-semibold  sm:text-3xl sm:mt-10 text-light dark:text-dark"
+					class="-mt-12 text-2xl font-semibold sm:text-3xl sm:mt-10 text-light dark:text-dark"
 				>
 					Warum Frauen in der IT?
 				</div>
@@ -62,7 +62,7 @@
 			</div>
 			<div class="flex flex-col">
 				<img
-					src="https://htl.moedling.at/kolleg/images/woman/KennenlernTreff.jpg"
+					src="https://htl.moedling.at/kolleg/images/woman/Kolleg.jpg"
 					class="w-96 rounded-xl"
 					alt="Bild von einem Team"
 					title="Kolleg für Informatik-Systemtechnik"
@@ -71,12 +71,12 @@
 			</div>
 		</div>
 		<h1
-			class="mt-4 text-2xl font-semibold text-center  sm:text-3xl text-light dark:text-dark"
+			class="mt-4 text-2xl font-semibold text-center sm:text-3xl text-light dark:text-dark"
 		>
 			Initiativen
 		</h1>
 		<div
-			class="flex flex-col flex-wrap justify-around border-t-4  border-dark sm:flex-row"
+			class="flex flex-col flex-wrap justify-around border-t-4 border-dark sm:flex-row"
 		>
 			<subject-item
 				image="https://htl.moedling.at/kolleg/images/woman/HTL_pink.jpg"
@@ -105,7 +105,7 @@
 			/>
 		</div>
 		<h1
-			class="text-2xl font-semibold text-center border-b-4  sm:text-3xl mt-9 text-light dark:text-dark border-dark"
+			class="text-2xl font-semibold text-center border-b-4 sm:text-3xl mt-9 text-light dark:text-dark border-dark"
 		>
 			Testimonials
 		</h1>
