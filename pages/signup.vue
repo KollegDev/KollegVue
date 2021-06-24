@@ -1,11 +1,13 @@
 <template>
 	<div class="p-2 lg:p-20 lg:pt-8">
 		<h1
-			class="pb-4 mb-4 text-4xl font-semibold text-center text-light dark:text-dark"
+			class="pb-4 mb-4 text-4xl font-semibold text-center  text-light dark:text-dark"
 		>
 			Ausbildungsweg
 		</h1>
-		<div class="grid grid-cols-3 grid-rows-5 gap-2 overflow-hidden progress lg:font-medium">
+		<div
+			class="grid grid-cols-3 grid-rows-5 gap-2 overflow-hidden  progress lg:font-medium"
+		>
 			<div class="col-start-1 col-end-4 box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
 					<div class="col-start-1 col-end-4 m-auto text-sm lg:text-base">
@@ -19,7 +21,9 @@
 
 			<div class="row-start-2 row-end-4 box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto text-sm lg:text-base">BHS oder Oberstufe AHS</div>
+					<div class="col-start-1 col-end-4 m-auto text-sm lg:text-base">
+						BHS oder Oberstufe AHS
+					</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
 						<i class="bx bx-md bx-down-arrow"></i>
 					</div>
@@ -28,7 +32,9 @@
 
 			<div class="box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto text-sm lg:text-base">Lehre</div>
+					<div class="col-start-1 col-end-4 m-auto text-sm lg:text-base">
+						Fachfremde Ausbildung
+					</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
 						<i class="bx bx-md bx-down-arrow"></i>
 					</div>
@@ -48,7 +54,7 @@
 
 			<div class="box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto text-sm lg:text-base">
+					<div class="col-start-1 col-end-4 m-auto text-xs lg:text-base">
 						Vorbereitungs-Lehrgang <br />(1 Semester)
 					</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
@@ -59,7 +65,9 @@
 
 			<div class="box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto text-sm lg:text-base">Abschluss-Prüfung</div>
+					<div class="col-start-1 col-end-4 m-auto text-sm lg:text-base">
+						Abschluss-Prüfung
+					</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
 						<i class="bx bx-md bx-down-arrow"></i>
 					</div>
@@ -68,7 +76,7 @@
 
 			<div class="box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto text-sm lg:text-base">
+					<div class="col-start-1 col-end-4 m-auto text-xs lg:text-base">
 						Kolleg für Informatik-Systemtechnik <br />(4 Semester)
 					</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
@@ -94,11 +102,11 @@
 		</div>
 
 		<div
-			class="flex flex-col justify-around pt-20 pb-10 m-auto mb-20 border-b-4 border-dark flex-grow-1 lg:flex-row"
+			class="flex flex-col justify-around pt-20 pb-10 m-auto mb-20 border-b-4  border-dark flex-grow-1 lg:flex-row"
 		>
 			<div class="h-full infobox">
 				<h1
-					class="text-3xl font-semibold text-center lg:text-4xl text-light dark:text-dark"
+					class="text-3xl font-semibold text-center  lg:text-4xl text-light dark:text-dark"
 				>
 					Kolleg
 				</h1>
@@ -106,8 +114,8 @@
 					Das Informatik-Kolleg der HTL Mödling bietet allen, die studienberichtigt
 					sind, eine kurze intensive Berufsausbildung, die sie zur Diplomprüfung
 					führt. Der Unterricht stellt die fachspezifischen Fächer, in denen man sich
-					für eine mündliche Abschlussprüfung vorbeireitet, in den Mittelpunkt. In
-					den allgemeinbildenden Fächern liegt der Fokus auf die Vorbereitung für den
+					für eine mündliche Abschlussprüfung vorbereitet, in den Mittelpunkt. In den
+					allgemeinbildenden Fächern liegt der Fokus auf der Vorbereitung für den
 					Einstieg in die Arbeitswelt. In Deutsch und Englisch werden rhetorische und
 					kommunikative Kompetenzen erworben. In Mathematik lernt man fachspezifische
 					Grundlagen, die relevant für Informatik sind.
@@ -115,7 +123,7 @@
 			</div>
 			<div class="h-full infobox">
 				<h1
-					class="text-3xl font-semibold text-center lg:text-4xl text-light dark:text-dark"
+					class="text-3xl font-semibold text-center  lg:text-4xl text-light dark:text-dark"
 				>
 					Aufbaulehrgang
 				</h1>
@@ -125,15 +133,14 @@
 					haben, zur Reife- und Diplomprüfung. Die Auszubildenden werden zusätzlich
 					zu den fachspezifischen Fächern gezielt in den allgemeinbildenden Fächern
 					für die mündlichen und schriftlichen Matura-Prüfungen vorbereitet. Die
-					allgemeinbildenden Fächern sind Deutsch, Englisch und angewandte
-					Mathematik. Unter anderem geht es darum, dass man die erlernten Fähigkeiten
-					der Rhetorik, Kommunikation und angewandten Mathematik im Berufsleben
-					einsetzt.
+					allgemeinbildenden Fächer sind Deutsch, Englisch und angewandte Mathematik.
+					Unter anderem geht es darum, dass man die erlernten Fähigkeiten der
+					Rhetorik, Kommunikation und angewandten Mathematik im Berufsleben einsetzt.
 				</div>
 			</div>
 		</div>
 		<div
-			class="p-5 m-auto text-3xl text-center transition-all duration-300 transform scale-100 lg:w-1/5 hover:scale-95 mt-14 rounded-2xl bg-light"
+			class="p-5 m-auto text-3xl text-center transition-all duration-300 transform scale-100  lg:w-1/5 hover:scale-95 mt-14 rounded-2xl bg-light"
 		>
 			<a href="https://anmeldung.htl.moedling.at/anmeldung.external/Sonderform"
 				>Zur Anmeldung</a
@@ -160,7 +167,7 @@
 }
 
 .description {
-	@apply lg:text-xl font-medium lg:text-center p-3 lg:p-6;
+	@apply lg:text-xl font-medium p-3 lg:p-6;
 }
 </style>
 
