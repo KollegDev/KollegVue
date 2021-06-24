@@ -14,7 +14,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/static/svg/favicon.svg' },
+      { rel: 'icon', type: 'image/x-icon', href: '/kolleg/svg/favicon.svg' },
       { rel: 'stylesheet', href: 'https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' }
     ]
   },
