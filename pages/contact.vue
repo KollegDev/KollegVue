@@ -45,7 +45,7 @@
 
 <style lang="postcss">
 .infobox {
-	@apply h-auto p-6 overflow-hidden bg-white shadow-xl dark:bg-darkgrey w-96 rounded-2xl mt-4 lg:mt-0 text-black dark:text-white;
+	@apply h-auto p-6 overflow-hidden bg-white shadow-xl dark:bg-darkgrey w-full rounded-2xl mt-4 lg:mt-0 text-black dark:text-white;
 }
 
 .blury {

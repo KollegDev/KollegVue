@@ -44,7 +44,7 @@
 			></avatar>
 
 			<avatar
-				name="Mag. Harald Paulen"
+				name="Mag. Harald Paulsen"
 				sub1="AM"
 				image="https://htl.moedling.at/kolleg/images/teachers/Paulsen.jpg"
 			></avatar>
