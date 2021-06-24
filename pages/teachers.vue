@@ -89,13 +89,13 @@
 		>
 			<avatar
 				name="Rene Ostermann"
-				sub1="WEPT"
+				sub1="COPR"
 				image="https://htl.moedling.at/fileadmin/elektronik/bilder/theorielehrer/Ostermann.jpg"
 			></avatar>
 
 			<avatar
 				name="Manfred Zellhofer"
-				sub1="WEPT"
+				sub1="COPR"
 				image="https://htl.moedling.at/fileadmin/elektronik/bilder/werkstaettenlehrer/Zellhofer.jpg"
 			></avatar>
 		</div>
