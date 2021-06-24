@@ -1,8 +1,8 @@
 <template>
-	<div class="w-full sm:m-8">
+	<div class="w-full sm:p-8">
 		<div>
 			<div
-				class="relative p-2 pr-6 text-3xl font-bold text-right text-white shadow-lg  sm:text-5xl rounded-t-2xl dark:text-darkgrey bg-dark"
+				class="relative p-2 pr-6 mt-4 text-3xl font-bold text-right text-white shadow-lg sm:text-5xl rounded-t-2xl dark:text-darkgrey bg-dark"
 			>
 				INFORMATIK & <br />
 				SYSTEMTECHNIK
@@ -10,7 +10,7 @@
 		</div>
 		<div class="h-56 opacity-90 sm:h-96">
 			<img
-				class="h-full shadow-md rounded-b-2xl"
+				class="h-full shadow-sm rounded-b-2xl"
 				src="https://htl.moedling.at/kolleg/images/cover.jpg"
 			/>
 		</div>
@@ -29,7 +29,8 @@
 				<nuxt-link to="/signup">
 					<div class="header">Aufbaulehrgang</div>
 					<div class="description">
-						für Quereinsteiger und Fachschüler zur BHS-Matura
+						für Quereinsteiger und Fachschüler zur <br />
+						BHS-Matura
 					</div>
 				</nuxt-link>
 			</div>
