@@ -9,8 +9,9 @@
 		<avatar
 				name="Dipl. Ing. Georg Krall"
 				sub1="NSVS"
-				image="https://htl.moedling.at/kolleg/images/teachers/Krall.jpg"
-			></avatar>
+				image="https://htl.moedling.at/kolleg/images/teachers/Krall.jpg">
+				<subject-link subject="NSVS"/>
+			</avatar>
 		</div>
 		<h1 class="mt-4 text-4xl font-semibold text-center text-light dark:text-dark">
 			Theorie Lehrer
@@ -20,64 +21,59 @@
 		>
 			<avatar
 				name="Dipl. Ing. Niklas Hack"
-				sub1="MEDT"
-				sub2="POS"
-				sub3="DBI"
-				sub4="SYP"
-				image="https://htl.moedling.at/kolleg/images/teachers/Hack.jpg"
-			></avatar>
-
-			<avatar
-				name="Dipl. Ing. Thomas Fuxreiter"
-				sub1="MEDT"
-				sub2="SYP"
-				sub3="NSVS"
-				sub4="DBI"
-				image="https://htl.moedling.at/kolleg/images/teachers/Fuxreiter.jpg"
-			></avatar>
+				image="https://htl.moedling.at/kolleg/images/teachers/Hack.jpg">
+				<subject-link subject="MEDT"/>
+				<subject-link subject="POS"/>
+				<subject-link subject="DBI"/>
+				<subject-link subject="SYP"/>
+			</avatar>
 
 			<avatar
 				name="Dipl. Ing. Silvia Niedrist"
-				sub1="MEDT"
-				sub2="POS"
-				image="https://htl.moedling.at/kolleg/images/teachers/Niedrist.jpg"
-			></avatar>
+				image="https://htl.moedling.at/kolleg/images/teachers/Niedrist.jpg">
+				<subject-link subject="MEDT"/>
+				<subject-link subject="POS"/>
+				</avatar>
 
 			<avatar
 				name="Dipl. Ing. Manfred Weiss"
-				sub1="SYP"
-				image="https://htl.moedling.at/kolleg/images/teachers/Weiss.jpg"
-			></avatar>
+				image="https://htl.moedling.at/kolleg/images/teachers/Weiss.jpg">
+				<subject-link subject="SYP"/>
+			</avatar>
 
 			<avatar
 				name="Mag. Harald Paulsen"
-				sub1="AM"
-				image="https://htl.moedling.at/kolleg/images/teachers/Paulsen.jpg"
-			></avatar>
+				image="https://htl.moedling.at/kolleg/images/teachers/Paulsen.jpg">
+				<subject-link subject="AM"/>
+			</avatar>
 
 			<avatar
 				name="Mag. Michael Staffenberger"
 				sub1="AM"
-				image="https://htl.moedling.at/kolleg/images/teachers/Staffenberger.jpg"
-			></avatar>
+				image="https://htl.moedling.at/kolleg/images/teachers/Staffenberger.jpg">
+				<subject-link subject="AM"/>
+			</avatar>
 
 			<avatar
 				name="Mag. Herwig Wallisch"
 				sub1="WIR"
-				image="https://htl.moedling.at/kolleg/images/teachers/Wallisch.jpg"
-			></avatar>
+				image="https://htl.moedling.at/kolleg/images/teachers/Wallisch.jpg">
+				<subject-link subject="WIR"/>
+			</avatar>
 
 			<avatar
 				name="Mag. Verena Zehetbauer"
 				sub1="E"
-				image="https://htl.moedling.at/kolleg/images/teachers/Zehetbauer.jpg"
-			></avatar>
+				image="https://htl.moedling.at/kolleg/images/teachers/Zehetbauer.jpg">
+				<subject-link subject="E"/>
+			</avatar>
 
 			<avatar
-				name="Roland Kneringer"
+				name="Dipl. Ing. Roland Kneringer"
 				sub1="TINF"
-				image="https://htl.moedling.at/kolleg/images/teachers/Kner.jpg"
-			></avatar>
+				image="https://htl.moedling.at/kolleg/images/teachers/Kner.jpg">
+				<subject-link subject="TINF"/>
+			</avatar>
 
 			<avatar name="Mag. Karin Bünger" sub1="E"></avatar>
 		</div>
@@ -89,15 +85,15 @@
 		>
 			<avatar
 				name="Rene Ostermann"
-				sub1="COPR"
-				image="https://htl.moedling.at/fileadmin/elektronik/bilder/theorielehrer/Ostermann.jpg"
-			></avatar>
+				image="https://htl.moedling.at/fileadmin/elektronik/bilder/theorielehrer/Ostermann.jpg">
+				<subject-link subject="COPR"/>
+			</avatar>
 
 			<avatar
 				name="Manfred Zellhofer"
-				sub1="COPR"
-				image="https://htl.moedling.at/fileadmin/elektronik/bilder/werkstaettenlehrer/Zellhofer.jpg"
-			></avatar>
+				image="https://htl.moedling.at/fileadmin/elektronik/bilder/werkstaettenlehrer/Zellhofer.jpg">
+				<subject-link subject="COPR"/>
+			</avatar>
 		</div>
 	</div>
 </template>
@@ -105,6 +101,7 @@
 
 <script>
 import Avatar from "~/components/Avatar"
+import SubjectLink from "~/components/SubjectLink.vue"
 import aosMixin from "~/mixins/aos"
 
 export default {
@@ -112,6 +109,7 @@ export default {
 	transition: "slide-bottom",
 	components: {
 		Avatar,
+		SubjectLink,
 	},
 }
 </script>

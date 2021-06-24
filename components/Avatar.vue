@@ -6,12 +6,7 @@
 			</div>
 			<h2 class="name">{{ name }}</h2>
 			<ul class="description">
-				<nuxt-link class="subject-link" :to="link + sub1">{{ sub1 }}</nuxt-link>
-				<nuxt-link class="subject-link" :to="link + sub2">{{ sub2 }}</nuxt-link>
-				<nuxt-link class="subject-link" :to="link + sub3">{{ sub3 }}</nuxt-link>
-				<nuxt-link class="subject-link" :to="link + sub4">{{ sub4 }}</nuxt-link>
-				<nuxt-link class="subject-link" :to="link + sub5">{{ sub5 }}</nuxt-link>
-				<nuxt-link class="subject-link" :to="link + sub6">{{ sub6 }}</nuxt-link>
+				<slot/>
 			</ul>
 		</div>
 	</div>
@@ -30,11 +25,6 @@ img {
 	@apply object-cover w-56 h-56 mx-auto rounded-full shadow-md;
 }
 
-.subject-link {
-	&:hover {
-		@apply text-light dark:text-dark;
-	}
-}
 </style>
 
 <script>
@@ -52,34 +42,6 @@ export default {
 			type: String,
 			default:
 				"https://images.unsplash.com/photo-1602661287394-ccf02e1a0893?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-		},
-		link: {
-			type: String,
-			default: "subjects#",
-		},
-		sub1: {
-			type: String,
-			default: "",
-		},
-		sub2: {
-			type: String,
-			default: "",
-		},
-		sub3: {
-			type: String,
-			default: "",
-		},
-		sub4: {
-			type: String,
-			default: "",
-		},
-		sub5: {
-			type: String,
-			default: "",
-		},
-		sub6: {
-			type: String,
-			default: "",
 		},
 	},
 }
