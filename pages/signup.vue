@@ -163,3 +163,9 @@
 	@apply sm:text-xl font-medium sm:text-center p-3 sm:p-6;
 }
 </style>
+
+<script>
+export default {
+	transition: "slide-bottom",
+}
+</script>

@@ -59,3 +59,9 @@ img {
 	display: block;
 }
 </style>
+
+<script>
+export default {
+	transition: "slide-bottom",
+}
+</script>
