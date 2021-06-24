@@ -34,6 +34,13 @@
 					</div>
 				</nuxt-link>
 			</div>
+      <div
+			class="p-5 m-auto text-3xl text-center transition-all duration-300 transform scale-100 sm:hidden sm:w-1/5 hover:scale-95 mt-14 rounded-2xl bg-light"
+		>
+			<a href="https://anmeldung.htl.moedling.at/anmeldung.external/Sonderform"
+				>Zur Anmeldung</a
+			>
+		</div>
 		</div>
 	</div>
 </template>

@@ -1,7 +1,7 @@
 <template>
 	<div class="p-2 sm:p-20 sm:pt-8">
 		<h1
-			class="pb-4 mb-4 text-4xl font-semibold text-center  text-light dark:text-dark"
+			class="pb-4 mb-4 text-4xl font-semibold text-center text-light dark:text-dark"
 		>
 			Ausbildungsweg
 		</h1>
@@ -28,7 +28,7 @@
 
 			<div class="box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto">Keine Vorausbildung</div>
+					<div class="col-start-1 col-end-4 m-auto">Lehre</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
 						<i class="bx bx-md bx-down-arrow"></i>
 					</div>
@@ -94,11 +94,11 @@
 		</div>
 
 		<div
-			class="flex flex-col justify-around pt-20 pb-10 m-auto mb-20 border-b-4  border-dark flex-grow-1 sm:flex-row"
+			class="flex flex-col justify-around pt-20 pb-10 m-auto mb-20 border-b-4 border-dark flex-grow-1 sm:flex-row"
 		>
 			<div class="h-full infobox">
 				<h1
-					class="text-3xl font-semibold text-center  sm:text-4xl text-light dark:text-dark"
+					class="text-3xl font-semibold text-center sm:text-4xl text-light dark:text-dark"
 				>
 					Kolleg
 				</h1>
@@ -115,7 +115,7 @@
 			</div>
 			<div class="h-full infobox">
 				<h1
-					class="text-3xl font-semibold text-center  sm:text-4xl text-light dark:text-dark"
+					class="text-3xl font-semibold text-center sm:text-4xl text-light dark:text-dark"
 				>
 					Aufbaulehrgang
 				</h1>
@@ -133,7 +133,7 @@
 			</div>
 		</div>
 		<div
-			class="p-5 m-auto text-3xl text-center transition-all duration-300 transform scale-100  sm:w-1/5 hover:scale-95 mt-14 rounded-2xl bg-light"
+			class="p-5 m-auto text-3xl text-center transition-all duration-300 transform scale-100 sm:w-1/5 hover:scale-95 mt-14 rounded-2xl bg-light"
 		>
 			<a href="https://anmeldung.htl.moedling.at/anmeldung.external/Sonderform"
 				>Zur Anmeldung</a
