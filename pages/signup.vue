@@ -5,10 +5,10 @@
 		>
 			Ausbildungsweg
 		</h1>
-		<div class="grid grid-cols-3 grid-rows-5 gap-2 overflow-hidden progress">
+		<div class="grid grid-cols-3 grid-rows-5 gap-2 overflow-hidden progress sm:font-medium">
 			<div class="col-start-1 col-end-4 box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto">
+					<div class="col-start-1 col-end-4 m-auto text-sm sm:text-base">
 						Unterstufe AHS oder Neue Mittelschule
 					</div>
 					<div class="col-start-3 col-end-4 m-auto arrow">
@@ -19,7 +19,7 @@
 
 			<div class="row-start-2 row-end-4 box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto">BHS oder Oberstufe AHS</div>
+					<div class="col-start-1 col-end-4 m-auto text-sm sm:text-base">BHS oder Oberstufe AHS</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
 						<i class="bx bx-md bx-down-arrow"></i>
 					</div>
@@ -28,7 +28,7 @@
 
 			<div class="box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto">Lehre</div>
+					<div class="col-start-1 col-end-4 m-auto text-sm sm:text-base">Lehre</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
 						<i class="bx bx-md bx-down-arrow"></i>
 					</div>
@@ -37,7 +37,7 @@
 
 			<div class="box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto">
+					<div class="col-start-1 col-end-4 m-auto text-sm sm:text-base">
 						Fachschule für Elektronik <br />(3.5 Jahre)
 					</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
@@ -48,7 +48,7 @@
 
 			<div class="box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto">
+					<div class="col-start-1 col-end-4 m-auto text-sm sm:text-base">
 						Vorbereitungs-Lehrgang <br />(1 Semester)
 					</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
@@ -59,7 +59,7 @@
 
 			<div class="box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto">Abschluss-Prüfung</div>
+					<div class="col-start-1 col-end-4 m-auto text-sm sm:text-base">Abschluss-Prüfung</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
 						<i class="bx bx-md bx-down-arrow"></i>
 					</div>
@@ -68,7 +68,7 @@
 
 			<div class="box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto">
+					<div class="col-start-1 col-end-4 m-auto text-sm sm:text-base">
 						Kolleg für Informatik-Systemtechnik <br />(4 Semester)
 					</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
@@ -79,7 +79,7 @@
 
 			<div class="col-start-2 col-end-4 box">
 				<div class="grid w-full h-full grid-cols-3 grid-rows-2">
-					<div class="col-start-1 col-end-4 m-auto">
+					<div class="col-start-1 col-end-4 m-auto text-sm sm:text-base">
 						Aufbaulehrgang für Informatik-Systemtechnik <br />(5 Semester)
 					</div>
 					<div class="col-start-2 col-end-3 m-auto arrow">
@@ -88,8 +88,8 @@
 				</div>
 			</div>
 
-			<div class="col-start-1 col-end-4 box">
-				<div class="m-auto">Reife- und Diplomprüfung</div>
+			<div class="col-start-1 col-end-4 text-sm sm:text-base box">
+				<div class="m-auto text-sm sm:text-base">Reife- und Diplomprüfung</div>
 			</div>
 		</div>
 
