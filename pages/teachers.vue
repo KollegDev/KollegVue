@@ -1,17 +1,23 @@
 <template>
 	<div class="">
 		<h1 class="mt-4 text-4xl font-semibold text-center text-light dark:text-dark">
+			Abteilungsvorstand
+		</h1>
+		<div
+			class="flex flex-col flex-wrap justify-center border-t-4 sm:mr-10 border-dark sm:flex-row"
+		>
+		<avatar
+				name="Dipl. Ing. Georg Krall"
+				sub1="NSVS"
+				image="https://htl.moedling.at/kolleg/images/teachers/Krall.jpg"
+			></avatar>
+		</div>
+		<h1 class="mt-4 text-4xl font-semibold text-center text-light dark:text-dark">
 			Theorie Lehrer
 		</h1>
 		<div
 			class="flex flex-col flex-wrap justify-center border-t-4 sm:mr-10 border-dark sm:flex-row"
 		>
-			<avatar
-				name="Dipl. Ing. Georg Krall"
-				sub1="NSVS"
-				image="https://htl.moedling.at/kolleg/images/teachers/Krall.jpg"
-			></avatar>
-
 			<avatar
 				name="Dipl. Ing. Niklas Hack"
 				sub1="MEDT"
