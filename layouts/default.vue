@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="flex flex-col min-h-screen p-4 transition duration-200 ease-linear bg-white  dark:bg-black"
+		class="flex flex-col min-h-screen p-4 transition duration-200 ease-linear bg-white dark:bg-black"
 	>
 		<topbar>
 			<circle-item-top
@@ -25,7 +25,7 @@
 		<div class="z-20 sm:hidden">
 			<mobile-burger></mobile-burger>
 			<mobile-sidebar>
-				<div class="preventTouch" @click="closeSidebarPanel">
+				<div @click="closeSidebarPanel">
 					<circle-item icon="bx-home" info="Startseite" subpage="/" />
 
 					<circle-item icon="bx-book" info="Fächer" subpage="/subjects" />
