@@ -33,7 +33,13 @@
 				image="https://htl.moedling.at/kolleg/images/teachers/Niedrist.jpg">
 				<subject-link subject="MEDT"/>
 				<subject-link subject="POS"/>
-				</avatar>
+			</avatar>
+
+			<avatar
+				name="Dipl. Ing. Roland Kneringer"
+				image="https://htl.moedling.at/kolleg/images/teachers/Kner.jpg">
+				<subject-link subject="TINF"/>
+			</avatar>
 
 			<avatar
 				name="Dipl. Ing. Manfred Weiss"
@@ -49,33 +55,42 @@
 
 			<avatar
 				name="Mag. Michael Staffenberger"
-				sub1="AM"
 				image="https://htl.moedling.at/kolleg/images/teachers/Staffenberger.jpg">
 				<subject-link subject="AM"/>
 			</avatar>
 
 			<avatar
 				name="Mag. Herwig Wallisch"
-				sub1="WIR"
 				image="https://htl.moedling.at/kolleg/images/teachers/Wallisch.jpg">
 				<subject-link subject="WIR"/>
 			</avatar>
 
 			<avatar
+				name="Mag. Ulrike Resel"
+				image="https://htl.moedling.at/kolleg/images/teachers/Resel.jpg">
+				<subject-link subject="D"/>
+			</avatar>
+
+			<avatar
 				name="Mag. Verena Zehetbauer"
-				sub1="E"
 				image="https://htl.moedling.at/kolleg/images/teachers/Zehetbauer.jpg">
 				<subject-link subject="E"/>
 			</avatar>
 
 			<avatar
-				name="Dipl. Ing. Roland Kneringer"
-				sub1="TINF"
-				image="https://htl.moedling.at/kolleg/images/teachers/Kner.jpg">
-				<subject-link subject="TINF"/>
+				name="Mag. Karin Bünger"
+				image="https://htl.moedling.at/kolleg/images/teachers/Buenger.jpg">
+				<subject-link subject="E"/>
 			</avatar>
 
-			<avatar name="Mag. Karin Bünger" sub1="E"></avatar>
+			<avatar
+				name="Mag. Anita Behan"
+				image="https://htl.moedling.at/kolleg/images/teachers/Behan.jpg">
+				<subject-link subject="E"/>
+			</avatar>
+
+
+
 		</div>
 		<h1 class="mt-4 text-3xl font-semibold text-center text-light dark:text-dark">
 			Werkstätten Lehrer
