@@ -1,9 +1,11 @@
 <template>
 	<div class="w-auto mt-4 overflow-hidden lg:m-8 lg:overflow-x-hidden">
+		<h1 class="text-transparent">_</h1>
 		<vue-masonry-wall :items="items" :options="options">
+			<div id="refresh"></div>
 			<template v-slot:default="{ item }">
 				<div class="Item">
-					<viewer class="viewer" :options="gallery">
+					<viewer class="viewer" ref="viewer" :options="gallery">
 						<template>
 							<img :src="item.image" :alt="item.alt" :title="item.title" />
 						</template>
@@ -73,7 +75,7 @@ export default {
 				},
 			},
 			//Wannabe buffer
-			items: [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+			items: [],	
 		}
 	},
 	methods: {
@@ -90,10 +92,14 @@ export default {
 		show() {
 			this.$viewer.show()
 		},
+		refresh() {
+        this.$nuxt.refresh()
+      }
 	},
 
 	beforeMount() {
 		this.getGalleryData()
 	},
+
 }
 </script>
