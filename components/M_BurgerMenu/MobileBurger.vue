@@ -1,7 +1,7 @@
 <template>
 	<div id="burger" :class="{ active: isBurgerActive }" @click.prevent="toggle">
 		<slot>
-			<div type="button" class="burger-button" title="Menu">
+			<div class="burger-button" title="Menu">
 				<span class="burger-bar burger-bar--1"></span>
 				<span class="burger-bar burger-bar--2"></span>
 			</div>

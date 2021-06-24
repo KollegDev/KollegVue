@@ -7,7 +7,7 @@
 		<div id="tfm" class="sm:hidden text-format-mobile">
 			{{ info }}
 		</div>
-		<div class="text-black dark:text-white sm:hidden bx bx-right-arrow"></div>
+		<div class="text-black dark:text-white sm:hidden"></div>
 		<div class="hidden sm:flex text-format">{{ info }}</div>
 	</div>
 		</nuxt-link>
@@ -28,7 +28,7 @@
 	@apply invisible sm:visible text-black text-2xl transform-gpu duration-200 -translate-x-full opacity-0 dark:text-white;
 }
 .text-format-mobile {
-	@apply text-black text-2xl dark:text-white;
+	@apply text-black text-2xl dark:text-white font-medium;
 }
 .icon {
 	@apply flex items-center justify-between;

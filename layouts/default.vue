@@ -22,7 +22,7 @@
 			<nuxt />
 		</div>
 		<!--Mobile Menu-->
-		<div class="z-20 sm:hidden">
+		<div class="z-50 sm:hidden">
 			<mobile-burger></mobile-burger>
 			<mobile-sidebar>
 				<div @click="closeSidebarPanel">
