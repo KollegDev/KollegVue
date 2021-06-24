@@ -100,7 +100,7 @@
 				shortID="WIR"
 				fullHeader="Wirtschaft und Recht (WIR)"
 				description="
-                Im Fach „Wirtschaft und Recht“ werden grundlegende Themengebiete aus der Rechtsordnung vermittelt und in ihren Zusammenhängen betrachtet. Abschnitte wie Arbeitsrecht, Wirtschaftsrecht und Steuerrecht stehen dabei besonders im Vordergrund. Nachdem IT fast überall zum Alltag der Menschen gehört, wird es auch für IT-Fachkräfte zunehmend wichtiger die Rechtsordnung besser zu verstehen."
+                Im Fach „Wirtschaft und Recht“ werden grundlegende Themengebiete aus der Rechtsordnung vermittelt und in ihren Zusammenhängen betrachtet. Abschnitte wie Arbeitsrecht, Wirtschaftsrecht und Steuerrecht stehen dabei besonders im Vordergrund. Nachdem IT fast überall zum Alltag der Menschen gehört, wird es auch für IT-Fachkräfte zunehmend wichtiger, die Rechtsordnung besser zu verstehen."
 			/>
 		</div>
 	</div>
