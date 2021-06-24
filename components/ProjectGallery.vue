@@ -25,7 +25,7 @@
 
 <style lang="postcss" scoped>
 section {
-	@apply sm:mx-10 mt-10;
+	@apply lg:mx-10 mt-10;
 }
 
 h2 {

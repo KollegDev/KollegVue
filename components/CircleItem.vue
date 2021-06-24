@@ -4,11 +4,11 @@
 			<div class="circle circle-color">
 				<slot><i class="bx bx-md" :class="icon"></i></slot>
 			</div>
-		<div id="tfm" class="sm:hidden text-format-mobile">
+		<div id="tfm" class="lg:hidden text-format-mobile">
 			{{ info }}
 		</div>
-		<div class="text-black dark:text-white sm:hidden"></div>
-		<div class="hidden sm:flex text-format">{{ info }}</div>
+		<div class="text-black dark:text-white lg:hidden"></div>
+		<div class="hidden lg:flex text-format">{{ info }}</div>
 	</div>
 		</nuxt-link>
 </template>
@@ -25,7 +25,7 @@
 }
 
 .text-format {
-	@apply invisible sm:visible text-black text-2xl transform-gpu duration-200 -translate-x-full opacity-0 dark:text-white;
+	@apply invisible lg:visible text-black text-2xl transform-gpu duration-200 -translate-x-full opacity-0 dark:text-white;
 }
 .text-format-mobile {
 	@apply text-black text-2xl dark:text-white font-medium;

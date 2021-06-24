@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="sticky top-0 z-50 justify-between hidden bg-white rounded-full shadow-md  dark:bg-black sm:flex"
+		class="sticky top-0 z-50 justify-between hidden bg-white rounded-full shadow-md  dark:bg-black lg:flex"
 	>
 		<nuxt-link to="/">
 			<h1 class="main-icon">IT_</h1>

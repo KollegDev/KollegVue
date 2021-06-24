@@ -1,6 +1,6 @@
 <template>
-	<div class="overflow-hidden sm:m-8 sm:overflow-x-hidden w-auto">
-		<vue-masonry-wall :items="items" :options="options" >
+	<div class="w-auto mt-4 overflow-hidden lg:m-8 lg:overflow-x-hidden">
+		<vue-masonry-wall :items="items" :options="options">
 			<template v-slot:default="{ item }">
 				<div class="Item">
 					<viewer class="viewer" :options="gallery">
@@ -16,7 +16,7 @@
 
 <style lang="postcss" scoped>
 section {
-	@apply mx-10 sm:mr-20 mt-10;
+	@apply mx-10 lg:mr-20 mt-10;
 }
 
 h2 {
@@ -55,7 +55,7 @@ img {
 import "viewerjs/dist/viewer.css"
 import { component as Viewer } from "v-viewer"
 import VueMasonryWall from "vue-masonry-wall"
-import axios from 'axios';
+import axios from "axios"
 
 export default {
 	components: { VueMasonryWall, Viewer },
@@ -73,16 +73,16 @@ export default {
 				},
 			},
 			//Wannabe buffer
-			items: [{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}],
+			items: [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
 		}
 	},
 	methods: {
 		getGalleryData() {
-				axios
+			axios
 				.get("/json/gallery.json")
-				.then(res => (this.items = res.data))
-				.catch(err => console.log(err))
-			},
+				.then((res) => (this.items = res.data))
+				.catch((err) => console.log(err))
+		},
 
 		inited(viewer) {
 			this.$viewer = viewer
@@ -93,7 +93,7 @@ export default {
 	},
 
 	beforeMount() {
-		this.getGalleryData();
-	}
+		this.getGalleryData()
+	},
 }
 </script>

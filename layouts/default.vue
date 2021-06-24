@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="flex flex-col min-h-screen p-4 transition duration-200 ease-linear bg-white dark:bg-black"
+		class="flex flex-col min-h-screen p-4 transition duration-200 ease-linear bg-white  dark:bg-black"
 	>
 		<topbar>
 			<circle-item-top
@@ -22,7 +22,7 @@
 			<nuxt />
 		</div>
 		<!--Mobile Menu-->
-		<div class="z-50 sm:hidden">
+		<div class="z-50 lg:hidden">
 			<mobile-burger></mobile-burger>
 			<mobile-sidebar>
 				<div @click="closeSidebarPanel">
