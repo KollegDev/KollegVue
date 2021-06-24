@@ -1,9 +1,9 @@
 <template>
-	<div class="overflow-hidden sm:m-8 sm:overflow-x-visible">
-		<vue-masonry-wall :items="items" :options="options">
+	<div class="overflow-hidden sm:m-8 sm:overflow-x-hidden w-auto">
+		<vue-masonry-wall :items="items" :options="options" >
 			<template v-slot:default="{ item }">
-				<div class="Item" data-aos="flip-up">
-					<viewer class="viewer" ref="viewer" :options="gallery">
+				<div class="Item">
+					<viewer class="viewer" :options="gallery">
 						<template>
 							<img :src="item.image" :alt="item.alt" :title="item.title" />
 						</template>
@@ -52,46 +52,38 @@ img {
 </style>
 
 <script>
-import aosMixin from "~/mixins/aos"
 import "viewerjs/dist/viewer.css"
 import { component as Viewer } from "v-viewer"
 import VueMasonryWall from "vue-masonry-wall"
-import data from "/static/json/gallery.json"
-var initial = true
+import axios from 'axios';
 
 export default {
-	mixins: [aosMixin],
 	components: { VueMasonryWall, Viewer },
 	data() {
 		return {
+			gallery: {
+				navbar: false,
+				toolbar: false,
+				button: false,
+			},
 			options: {
 				width: 450,
 				padding: {
 					default: 8,
 				},
 			},
-			gallery: {
-				navbar: false,
-				toolbar: false,
-				button: false,
-			},
-			throttle: 0,
-			items: [],
+			//Wannabe buffer
+			items: [{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}],
 		}
 	},
 	methods: {
-		append() {
-			if (initial) {
-				data.forEach((e) => {
-					this.items.push({
-						alt: e.alt,
-						image: e.image,
-						title: e.title,
-					})
-				})
-				initial = false
-			}
-		},
+		getGalleryData() {
+				axios
+				.get("/json/gallery.json")
+				.then(res => (this.items = res.data))
+				.catch(err => console.log(err))
+			},
+
 		inited(viewer) {
 			this.$viewer = viewer
 		},
@@ -100,12 +92,8 @@ export default {
 		},
 	},
 
-	destroyed() {
-		initial = true
-	},
-
-	created() {
-		this.append()
-	},
+	beforeMount() {
+		this.getGalleryData();
+	}
 }
 </script>
