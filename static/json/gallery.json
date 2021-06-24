@@ -5,6 +5,16 @@
         "image": "https://htl.moedling.at/kolleg/images/gallery/001.jpg"
     },
     {
+        "title": "HTL, Hauptgebäude",
+        "alt": "Hauptgebäude aus Sicht der Elektronikabteilung",
+        "image": "https://htl.moedling.at/kolleg/images/gallery/024.jpg"    
+    },
+    {
+        "title": "HTL, Hauptgebäude",
+        "alt": "Sportplatz mit Sicht auf Hauptgebäude",
+        "image": "https://htl.moedling.at/kolleg/images/gallery/022.jpg"    
+    },
+    {
         "title": "HTL, Elektronik-Gebäude",
         "alt": "Innenhofeingang des Elektronikgebäudes",
         "image": "https://htl.moedling.at/kolleg/images/gallery/002.jpg"    
@@ -25,14 +35,14 @@
         "image": "https://htl.moedling.at/kolleg/images/gallery/005.jpg"    
     },
     {
-        "title": "HTL, Gebäude Elektronik und Technische Informatik",
-        "alt": "Gebäude Elektronik u. Technische Informatik: Schülerinnen und Schüler gehen aus dem Gebäude",
-        "image": "https://htl.moedling.at/kolleg/images/gallery/006.jpg"    
-    },
-    {
         "title": "HTL, Innenhof",
         "alt": "Innenhof: Schüler sitzen auf einer Bank",
         "image": "https://htl.moedling.at/kolleg/images/gallery/007.jpg"    
+    },
+    {
+        "title": "HTL, Restaurant und Bistro",
+        "alt": "Restaurant und Bistro: Schüler gehen im Innenhof",
+        "image": "https://htl.moedling.at/kolleg/images/gallery/015.jpg"    
     },
     {
         "title": "HTL, Gebäude Elektronik und Technische Informatik",
@@ -45,11 +55,6 @@
         "image": "https://htl.moedling.at/kolleg/images/gallery/009.jpg"    
     },
     {
-        "title": "HTL, Gebäude Elektronik und Technische Informatik",
-        "alt": "Gebäude Elektronik u. Technische Informatik: Schülerinnen und Schüler gehen aus dem Gebäude",
-        "image": "https://htl.moedling.at/kolleg/images/gallery/010.jpg"    
-    },
-    {
         "title": "HTL, Hauptgebäude",
         "alt": "Hauptgebäude: Schülerinnen und Schüler gehen aus dem Gebäude",
         "image": "https://htl.moedling.at/kolleg/images/gallery/011.jpg"    
@@ -60,24 +65,19 @@
         "image": "https://htl.moedling.at/kolleg/images/gallery/012.jpg"    
     },
     {
+        "title": "HTL, Gebäude Elektronik und Technische Informatik",
+        "alt": "Gebäude Elektronik u. Technische Informatik: Schülerinnen und Schüler gehen aus dem Gebäude",
+        "image": "https://htl.moedling.at/kolleg/images/gallery/006.jpg"    
+    },
+    {
+        "title": "HTL, Sportplatz",
+        "alt": "Sportplatz: Schülerinnen und Schüler lernen auf der Wiese",
+        "image": "https://htl.moedling.at/kolleg/images/gallery/030.jpg"    
+    },
+    {
         "title": "HTL, Restaurant und Bistro",
         "alt": "Restaurant und Bistro: Schüler gehen im Innenhof",
         "image": "https://htl.moedling.at/kolleg/images/gallery/013.jpg"    
-    },
-    {
-        "title": "HTL, Restaurant und Bistro",
-        "alt": "Restaurant und Bistro: Schüler gehen im Innenhof",
-        "image": "https://htl.moedling.at/kolleg/images/gallery/014.jpg"    
-    },
-    {
-        "title": "HTL, Restaurant und Bistro",
-        "alt": "Restaurant und Bistro: Schüler gehen im Innenhof",
-        "image": "https://htl.moedling.at/kolleg/images/gallery/015.jpg"    
-    },
-    {
-        "title": "HTL, Restaurant und Bistro",
-        "alt": "Restaurant und Bistro: Schüler gehen im Innenhof",
-        "image": "https://htl.moedling.at/kolleg/images/gallery/016.jpg"    
     },
     {
         "title": "HTL, Mathematik-Unterricht",
@@ -105,19 +105,9 @@
         "image": "https://htl.moedling.at/kolleg/images/gallery/021.jpg"    
     },
     {
-        "title": "HTL, Hauptgebäude",
-        "alt": "Sportplatz mit Sicht auf Hauptgebäude",
-        "image": "https://htl.moedling.at/kolleg/images/gallery/022.jpg"    
-    },
-    {
         "title": "HTL, Programmier-Unterricht",
         "alt": "Programmier-Unterricht im Kolleg",
         "image": "https://htl.moedling.at/kolleg/images/gallery/023.jpg"    
-    },
-    {
-        "title": "HTL, Hauptgebäude",
-        "alt": "Hauptgebäude aus Sicht der Elektronikabteilung",
-        "image": "https://htl.moedling.at/kolleg/images/gallery/024.jpg"    
     },
     {
         "title": "HTL, Innenhof",
@@ -128,6 +118,11 @@
         "title": "HTL, Innenhof",
         "alt": "Innenhof: Schülerinnen und Schüler sitzen auf den Treppen",
         "image": "https://htl.moedling.at/kolleg/images/gallery/026.jpg"    
+    },
+    {
+        "title": "HTL, Gebäude Elektronik und Technische Informatik",
+        "alt": "Gebäude Elektronik u. Technische Informatik: Schülerinnen und Schüler gehen aus dem Gebäude",
+        "image": "https://htl.moedling.at/kolleg/images/gallery/010.jpg"    
     },
     {
         "title": "HTL, Gebäude Elektronik u. Technische Informatik",
@@ -145,9 +140,9 @@
         "image": "https://htl.moedling.at/kolleg/images/gallery/029.jpg"    
     },
     {
-        "title": "HTL, Sportplatz",
-        "alt": "Sportplatz: Schülerinnen und Schüler lernen auf der Wiese",
-        "image": "https://htl.moedling.at/kolleg/images/gallery/030.jpg"    
+        "title": "HTL, Restaurant und Bistro",
+        "alt": "Restaurant und Bistro: Schüler gehen im Innenhof",
+        "image": "https://htl.moedling.at/kolleg/images/gallery/016.jpg"    
     },
     {
         "title": "HTL, Hauptgebäude, Skulptur 100 Jahre HTL Mödling",
@@ -168,6 +163,11 @@
         "title": "HTL, Innenhof",
         "alt": "Innenhof: Schüler sitzen auf einer Bank",
         "image": "https://htl.moedling.at/kolleg/images/gallery/034.jpg"    
+    },
+    {
+        "title": "HTL, Restaurant und Bistro",
+        "alt": "Restaurant und Bistro: Schüler gehen im Innenhof",
+        "image": "https://htl.moedling.at/kolleg/images/gallery/014.jpg"    
     },
     {
         "title": "HTL, Innenhof",
