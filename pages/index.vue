@@ -2,7 +2,7 @@
 	<div class="w-full lg:p-8">
 		<div>
 			<div
-				class="relative p-2 pr-6 mt-4 text-3xl font-bold text-right text-white shadow-lg lg:text-5xl rounded-t-2xl dark:text-darkgrey bg-dark"
+				class="relative p-2 lg:pr-6 mt-4 text-3xl font-bold text-center m-auto lg:text-right text-white shadow-lg lg:text-5xl rounded-t-2xl dark:text-darkgrey bg-dark"
 			>
 				INFORMATIK & <br />
 				SYSTEMTECHNIK
