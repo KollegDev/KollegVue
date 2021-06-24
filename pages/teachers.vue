@@ -1,6 +1,6 @@
 <template>
 	<div class="">
-		<h1 class="mt-4 text-4xl font-semibold text-center text-light dark:text-dark">
+		<h1 class="mt-4 sm:text-3xl text-3xl truncate font-semibold text-center text-light dark:text-dark">
 			Abteilungsvorstand
 		</h1>
 		<div
@@ -13,7 +13,7 @@
 				<subject-link subject="NSVS"/>
 			</avatar>
 		</div>
-		<h1 class="mt-4 text-4xl font-semibold text-center text-light dark:text-dark">
+		<h1 class="mt-4 text-3xl font-semibold text-center text-light dark:text-dark">
 			Theorie Lehrer
 		</h1>
 		<div
@@ -77,7 +77,7 @@
 
 			<avatar name="Mag. Karin Bünger" sub1="E"></avatar>
 		</div>
-		<h1 class="mt-4 text-4xl font-semibold text-center text-light dark:text-dark">
+		<h1 class="mt-4 text-3xl font-semibold text-center text-light dark:text-dark">
 			Werkstätten Lehrer
 		</h1>
 		<div
