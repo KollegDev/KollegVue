@@ -4,7 +4,7 @@
 			Hauptfächer
 		</h1>
 		<div
-			class="flex flex-col flex-wrap justify-around border-t-4  sm:mr-10 border-dark sm:flex-row"
+			class="flex flex-col flex-wrap justify-around border-t-4  lg:mr-10 border-dark lg:flex-row"
 		>
 			<subject-item
 				image="https://htl.moedling.at/kolleg/images/subjects/code.jpg"
@@ -59,7 +59,7 @@
 			Nebenfächer
 		</h1>
 		<div
-			class="flex flex-col flex-wrap justify-around border-t-4  sm:mr-10 border-dark sm:flex-row"
+			class="flex flex-col flex-wrap justify-around border-t-4  lg:mr-10 border-dark lg:flex-row"
 		>
 			<subject-item
 				image="https://htl.moedling.at/kolleg/images/subjects/math.jpg"

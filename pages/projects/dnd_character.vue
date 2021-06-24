@@ -1,5 +1,5 @@
 <template>
-	<project v-html="mdFile" paddingX="sm:px-8 pt-8" />
+	<project v-html="mdFile" paddingX="lg:px-8 pt-8" />
 </template>
 
 <script>

@@ -1,10 +1,10 @@
 <template>
 	<div class="">
-		<h1 class="mt-4 sm:text-3xl text-3xl truncate font-semibold text-center text-light dark:text-dark">
+		<h1 class="mt-4 lg:text-3xl text-3xl truncate font-semibold text-center text-light dark:text-dark">
 			Abteilungsvorstand
 		</h1>
 		<div
-			class="flex flex-col flex-wrap justify-center border-t-4 sm:mr-10 border-dark sm:flex-row"
+			class="flex flex-col flex-wrap justify-center border-t-4 lg:mr-10 border-dark lg:flex-row"
 		>
 		<avatar
 				name="Dipl. Ing. Georg Krall"
@@ -17,7 +17,7 @@
 			Theorie Lehrer
 		</h1>
 		<div
-			class="flex flex-col flex-wrap justify-center border-t-4 sm:mr-10 border-dark sm:flex-row"
+			class="flex flex-col flex-wrap justify-center border-t-4 lg:mr-10 border-dark lg:flex-row"
 		>
 			<avatar
 				name="Dipl. Ing. Niklas Hack"
@@ -81,7 +81,7 @@
 			Werkstätten Lehrer
 		</h1>
 		<div
-			class="flex flex-col flex-wrap justify-center border-t-4 sm:mr-10 sm:flex-row border-dark"
+			class="flex flex-col flex-wrap justify-center border-t-4 lg:mr-10 lg:flex-row border-dark"
 		>
 			<avatar
 				name="Rene Ostermann"
