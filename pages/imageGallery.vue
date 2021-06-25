@@ -81,7 +81,7 @@ export default {
 	methods: {
 		getGalleryData() {
 			axios
-				.get("/json/gallery.json")
+				.get("/kolleg/json/gallery.json")
 				.then((res) => (this.items = res.data))
 				.catch((err) => console.log(err))
 		},
