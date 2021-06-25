@@ -139,13 +139,23 @@
 				</div>
 			</div>
 		</div>
-		<div
-			class="p-5 m-auto text-3xl text-center transition-all duration-300 transform scale-100  lg:w-1/5 hover:scale-95 mt-14 rounded-2xl bg-light"
-		>
-			<a href="https://anmeldung.htl.moedling.at/anmeldung.external/Sonderform"
-				>Zur Anmeldung</a
-			>
+		<div class="flex flex-col">
+	
+		<div class="shadow-md p-5 m-auto text-3xl text-center transition-all duration-300 transform scale-100  lg:w-1/5 hover:scale-95 mt-14 rounded-2xl bg-light">
+			<a href="/kolleg/pdf/Stundenplan.pdf"
+			>Stundenplan</a>
+			
 		</div>
+
+		<div class="shadow-md p-5 m-auto text-3xl text-center transition-all duration-300 transform scale-100  lg:w-1/5 hover:scale-95 mt-14 rounded-2xl bg-light">
+			<a href="https://anmeldung.htl.moedling.at/anmeldung.external/Sonderform"
+			>Zur Anmeldung</a>
+			
+		</div>
+
+		</div>
+		
+		
 	</div>
 </template>
 
