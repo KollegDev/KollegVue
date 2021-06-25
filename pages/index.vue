@@ -12,6 +12,7 @@
 			<img
 				class="h-full shadow-sm rounded-b-2xl"
 				src="https://htl.moedling.at/kolleg/images/cover.jpg"
+				alt="Schüler des Kollegs im Freien"
 			/>
 		</div>
 

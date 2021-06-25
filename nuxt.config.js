@@ -2,6 +2,8 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  mode: 'production',
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'INFORMATIK_',
@@ -40,7 +42,7 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
     '@nuxtjs/color-mode',
-    'nuxt-compress'
+    'nuxt-compress',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -100,5 +102,9 @@ export default {
   server: {
     port: 8000,
     host: '0.0.0.0',
+  },
+
+  optimization: {
+    minimize: true,
   },
 }
