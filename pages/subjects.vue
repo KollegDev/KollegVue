@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<h1 class="mt-4 text-4xl font-semibold text-center text-light dark:text-dark">
-			Hauptfächer
+			Technische Fächer
 		</h1>
 		<div
 			class="flex flex-col flex-wrap justify-around border-t-4  lg:mr-10 border-dark lg:flex-row"
@@ -48,15 +48,22 @@
 
 			<subject-item
 				image="https://htl.moedling.at/kolleg/images/subjects/tinf.jpg"
-				shortID="TIN"
+				shortID="TINF"
 				fullHeader="Technische Informatik (TINF)"
 				description="
                 Im Fach „Technische Informatik“ geht es in die Tiefe der Computerwelt. Man erlernt die Handhabung von diversen Betriebssystemen. Außerdem lernt man Mikrocontroller, sowie deren Programmierung mit den Programmiersprachen C und C++ kennen. Scripting ist auch ein Bestandteil des Unterrichts. Zusätzlich werden die Zusammenhänge der Elektronik und der Informatik (Hardware und Software) erklärt."
 			/>
+			<subject-item
+				image="https://htl.moedling.at/kolleg/images/subjects/copr.jpg"
+				shortID="COPR"
+				fullHeader="Computerpraktikum (COPR)"
+				description="
+                Das Computerpraktikum findet im ersten Schuljahr in den Werkstätten-Gebäuden statt. Es werden die Grundlagen von Elektronik gelehrt. Zwischendurch fokussiert man sich auf das Umsetzen des erlernten Wissens. Zu den Grundlagen zählen zum Beispiel: löten, Herstellung sowie Aufbau von Kabeln (Lichtwellenleiter oder Patchkabel) und der Aufbau eines Computers."
+			/>
 		</div>
 
 		<h1 class="mt-4 text-4xl font-semibold text-center text-light dark:text-dark">
-			Nebenfächer
+			Allgemeinbildende Fächer
 		</h1>
 		<div
 			class="flex flex-col flex-wrap justify-around border-t-4  lg:mr-10 border-dark lg:flex-row"
@@ -70,13 +77,7 @@
                 Der Aufbaulehrgang wird gezielt auf die Mathematik-Prüfung der BHS-Matura vorbereitet.
                 Die technischen Themengebiete werden im 3. und 4. Semester des Kollegs gelehrt."
 			/>
-			<subject-item
-				image="https://htl.moedling.at/kolleg/images/subjects/copr.jpg"
-				shortID="COPR"
-				fullHeader="Computerpraktikum (COPR)"
-				description="
-                Das Computerpraktikum findet im ersten Schuljahr in den Werkstätten-Gebäuden statt. Es werden die Grundlagen von Elektronik gelehrt. Zwischendurch fokussiert man sich auf das Umsetzen des erlernten Wissens. Zu den Grundlagen zählen zum Beispiel: löten, Herstellung sowie Aufbau von Kabeln (Lichtwellenleiter oder Patchkabel) und der Aufbau eines Computers."
-			/>
+			
 			<subject-item
 				image="https://htl.moedling.at/kolleg/images/subjects/german.jpg"
 				shortID="D"
