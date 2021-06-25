@@ -171,6 +171,22 @@
 					Systemtechnik
 				</p>
 			</div>
+			<div class="p-2 lg:p-9">
+				<p class="italic lg:text-xl">
+					„Als ich mit 40 Jahren den Entschluss gefasst habe, diese Ausbildung zu beginnen, war ich mir nicht sicher, wie es sein würde, wieder in die Schule zu gehen. Würde ich die Anforderungen des Lehrstoffes bewältigen, und wie würde es sein, in „meinem Alter“ nochmal die Schulbank zu drücken?
+					Mein Fazit der gesamten Ausbildungszeit ist:
+					Ich habe mich vom ersten Tag an im Kolleg gut aufgehoben und betreut gefühlt. 
+					Die Frage nach der Gleichberechtigung als Frau musste ich mir nie stellen, da es niemals eine Situation gab, in der ich daran hätte zweifeln können.
+					Ich wurde durch alle Lehrkräfte immer voll und auf Augenhöhe unterstützt, gefördert und ernst genommen.
+					Ich kann nur jede Frau mit Interesse an einer Ausbildung im Bereich IT ermutigen, diesen Weg einzuschlagen.“
+				</p>
+				<p class="text-sm text-right">
+					Eva K.
+ 					Absolventin der HTL 
+					Mödling-Kolleg für 
+                    Informatik-Systemtechnik
+				</p>
+			</div>
 		</div>
 	</div>
 </template>

@@ -21,7 +21,7 @@
 }
 
 .txtDescription {
-	@apply text-darkgrey dark:text-white;
+	@apply text-darkgrey dark:text-white text-xl;
 }
 
 .descBox {
