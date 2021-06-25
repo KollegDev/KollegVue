@@ -25,7 +25,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: '~plugins/vue-carousel', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -40,17 +39,33 @@ export default {
   buildModules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    'nuxt-compress'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/markdownit'
+    '@nuxtjs/markdownit',
+    ["nuxt-compress"]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    vendor: ['vue-carousel']
+    html: {
+      minify: {
+        collapseBooleanAttributes: true,
+        decodeEntities: true,
+        minifyCSS: true,
+        minifyJS: true,
+        processConditionalComments: true,
+        removeEmptyAttributes: true,
+        removeRedundantAttributes: true,
+        trimCustomFragments: true,
+        useShortDoctype: true,
+        preserveLineBreaks: false,
+        collapseWhitespace: true
+      }
+    },
   },
 
   tailwindcss: {
